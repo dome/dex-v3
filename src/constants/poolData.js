@@ -1,6 +1,6 @@
 export const poolData = [
     {
-      title: 'DogSwap / MintMe',
+      title: 'USDog / MintMe',
       subTitle: 'Stake your Dogswap / MintMe LP tokens and get $BONE rewards!',
       BONE_TOKEN_ADDRESS: '0x9D8dd79F2d4ba9E1C3820d7659A5F5D2FA1C22eF',
       MASTER_CHEF_ADDRESS: '0x4f79af8335d41A98386f09d79D19Ab1552d0b925',
@@ -30,8 +30,8 @@ export const poolData = [
        imageTokenB: 'https://usdog.fi/images/coins/mintme.png',
     },
     {
-        title: '$BONE / DogSwap',
-        subTitle: 'Stake your $BONE / DogSwap LP tokens and get $BONE rewards!',
+        title: '$BONE / USDog',
+        subTitle: 'Stake your $BONE / USDog LP tokens and get $BONE rewards!',
         BONE_TOKEN_ADDRESS: '0x9D8dd79F2d4ba9E1C3820d7659A5F5D2FA1C22eF',
         MASTER_CHEF_ADDRESS: '0x4f79af8335d41A98386f09d79D19Ab1552d0b925',
         poolId: 6,
@@ -75,8 +75,8 @@ export const poolData = [
         imageTokenB: 'https://usdog.fi/images/coins/bone.png',
     },
     {
-        title: '1000x / DogSwap',
-        subTitle: 'Stake your 1000x / DogSwap LP tokens and get $BONE rewards!',
+        title: '1000x / USDog',
+        subTitle: 'Stake your 1000x / USDog LP tokens and get $BONE rewards!',
         BONE_TOKEN_ADDRESS: '0x9D8dd79F2d4ba9E1C3820d7659A5F5D2FA1C22eF',
         MASTER_CHEF_ADDRESS: '0x4f79af8335d41A98386f09d79D19Ab1552d0b925',
         poolId: 9,

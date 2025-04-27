@@ -406,7 +406,7 @@ export default function Stake() {
     <RootContainer maxWidth="lg">
       <TitleTypography variant="h3">$BONE Staking Dashboard</TitleTypography>
       <SubTitleTypography variant="body1">
-        Stake your $BONE tokens to earn rewards and support the DogSwap ecosystem.
+        Stake your $BONE tokens to earn rewards and support the USDog ecosystem.
       </SubTitleTypography>
       <Grid container spacing={3}>
         <Grid item xs={12} sm={6} md={3}>

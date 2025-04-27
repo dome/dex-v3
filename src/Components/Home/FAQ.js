@@ -50,7 +50,7 @@ export default function FAQ() {
             id="panel1d-header"
           >
             <Typography component="h3" variant="subtitle2">
-            What is DogSwap?
+            What is USDog?
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
@@ -59,7 +59,7 @@ export default function FAQ() {
               gutterBottom
               sx={{ maxWidth: { sm: '100%', md: '70%' } }}
             >
-              DogSwap is a leading decentralized finance (DeFi) platform that allows users to trade, earn, and manage cryptocurrencies in a secure and user-friendly environment. We offer high-yield pools, seamless swaps, and innovative features tailored to enhance your trading experience.
+              USDog is a leading decentralized finance (DeFi) platform that allows users to trade, earn, and manage cryptocurrencies in a secure and user-friendly environment. We offer high-yield pools, seamless swaps, and innovative features tailored to enhance your trading experience.
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -73,7 +73,7 @@ export default function FAQ() {
             id="panel2d-header"
           >
             <Typography component="h3" variant="subtitle2">
-            How do I get started with DogSwap?
+            How do I get started with USDog?
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
@@ -82,7 +82,7 @@ export default function FAQ() {
               gutterBottom
               sx={{ maxWidth: { sm: '100%', md: '70%' } }}
             >
-              To get started, simply connect your wallet, and explore our various trading pools. You can click the "Get Started" button on the homepage to begin your journey with DogSwap!
+              To get started, simply connect your wallet, and explore our various trading pools. You can click the "Get Started" button on the homepage to begin your journey with USDog!
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -96,7 +96,7 @@ export default function FAQ() {
             id="panel3d-header"
           >
             <Typography component="h3" variant="subtitle2">
-            Is my investment safe on DogSwap?
+            Is my investment safe on USDog?
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
@@ -119,7 +119,7 @@ export default function FAQ() {
             id="panel4d-header"
           >
             <Typography component="h3" variant="subtitle2">
-            What cryptocurrencies can I trade on DogSwap?
+            What cryptocurrencies can I trade on USDog?
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
@@ -128,7 +128,7 @@ export default function FAQ() {
               gutterBottom
               sx={{ maxWidth: { sm: '100%', md: '70%' } }}
             >
-              DogSwap supports a wide variety of cryptocurrencies, including popular tokens and our native BONE token. You can view the full list of supported assets directly on our platform.
+              USDog supports a wide variety of cryptocurrencies, including popular tokens and our native BONE token. You can view the full list of supported assets directly on our platform.
             </Typography>
           </AccordionDetails>
         </Accordion>

@@ -47,7 +47,7 @@ export default function Hero() {
                 color: 'primary.main',
               }}
             >
-              DogSwap
+              USDog
             </Typography>
           </Typography>
           <Typography
@@ -58,7 +58,7 @@ export default function Hero() {
             }}
           >
             Explore one of MintMe's top DeFi, delivering high-yielding,
-            earning pools. Grow your MintMe experience on the DogSwap
+            earning pools. Grow your MintMe experience on the USDog
             ecosystem and start earning today!
           </Typography>
           <Stack

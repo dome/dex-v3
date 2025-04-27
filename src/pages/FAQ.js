@@ -67,22 +67,22 @@ const FAQPage = () => {
         {/* Accordion with FAQ items */}
         <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
           <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="panel1-content" id="panel1-header">
-            <Typography variant="subtitle1">1. What is DogSwap?</Typography>
+            <Typography variant="subtitle1">1. What is USDog?</Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography variant="body2">
-            DogSwap is a decentralized finance (DeFi) platform where users can swap tokens, provide liquidity, and earn rewards. It operates on the MintMe Network and uses the $BONE token for various functions, including staking and governance.
+            USDog is a decentralized finance (DeFi) platform where users can swap tokens, provide liquidity, and earn rewards. It operates on the MintMe Network and uses the $BONE token for various functions, including staking and governance.
             </Typography>
           </AccordionDetails>
         </Accordion>
 
         <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
           <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="panel2-content" id="panel2-header">
-            <Typography variant="subtitle1">2. How do I swap tokens on DogSwap?</Typography>
+            <Typography variant="subtitle1">2. How do I swap tokens on USDog?</Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography variant="body2">
-            To swap tokens on DogSwap, go to the "Swap" section on the platform, select the tokens you want to trade, enter the amount, and confirm the swap. Your new tokens will appear in your wallet once the transaction is completed.            </Typography>
+            To swap tokens on USDog, go to the "Swap" section on the platform, select the tokens you want to trade, enter the amount, and confirm the swap. Your new tokens will appear in your wallet once the transaction is completed.            </Typography>
           </AccordionDetails>
         </Accordion>
 
@@ -98,7 +98,7 @@ const FAQPage = () => {
 
         <Accordion expanded={expanded === 'panel4'} onChange={handleChange('panel4')}>
           <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="panel4-content" id="panel4-header">
-            <Typography variant="subtitle1">4. How can I provide liquidity on DogSwap?</Typography>
+            <Typography variant="subtitle1">4. How can I provide liquidity on USDog?</Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography variant="body2">
@@ -112,7 +112,7 @@ const FAQPage = () => {
           </AccordionSummary>
           <AccordionDetails>
             <Typography variant="body2">
-            $BONE is the native token of DogSwap. It is used for staking, earning rewards, participating in governance, and incentivizing liquidity provision on the platform.            </Typography>
+            $BONE is the native token of USDog. It is used for staking, earning rewards, participating in governance, and incentivizing liquidity provision on the platform.            </Typography>
           </AccordionDetails>
         </Accordion>
 
@@ -122,7 +122,7 @@ const FAQPage = () => {
           </AccordionSummary>
           <AccordionDetails>
             <Typography variant="body2">
-            To stake $BONE tokens, navigate to the "Staking" section on DogSwap, choose the staking pool, enter the amount of $BONE you want to stake, and confirm your action. Staking earns you rewards and gives you voting power.            </Typography>
+            To stake $BONE tokens, navigate to the "Staking" section on USDog, choose the staking pool, enter the amount of $BONE you want to stake, and confirm your action. Staking earns you rewards and gives you voting power.            </Typography>
           </AccordionDetails>
         </Accordion>
 
@@ -132,33 +132,33 @@ const FAQPage = () => {
           </AccordionSummary>
           <AccordionDetails>
             <Typography variant="body2">
-            Staking $BONE tokens allows you to earn rewards, participate in governance decisions, and support the DogSwap ecosystem. Stakers receive additional $BONE tokens as rewards.            </Typography>
+            Staking $BONE tokens allows you to earn rewards, participate in governance decisions, and support the USDog ecosystem. Stakers receive additional $BONE tokens as rewards.            </Typography>
           </AccordionDetails>
         </Accordion>
 
         <Accordion expanded={expanded === 'panel8'} onChange={handleChange('panel8')}>
           <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="panel8-content" id="panel8-header">
-            <Typography variant="subtitle1">8. How does DogSwap ensure the security of my funds?</Typography>
+            <Typography variant="subtitle1">8. How does USDog ensure the security of my funds?</Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography variant="body2">
-            DogSwap uses smart contracts to manage trades and liquidity pools, which are audited to ensure security. Additionally, the platform follows best practices in DeFi security to protect user funds.            </Typography>
+            USDog uses smart contracts to manage trades and liquidity pools, which are audited to ensure security. Additionally, the platform follows best practices in DeFi security to protect user funds.            </Typography>
           </AccordionDetails>
         </Accordion>
 
         <Accordion expanded={expanded === 'panel9'} onChange={handleChange('panel9')}>
           <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="panel9-content" id="panel9-header">
-            <Typography variant="subtitle1">9. What is the governance system on DogSwap?</Typography>
+            <Typography variant="subtitle1">9. What is the governance system on USDog?</Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography variant="body2">
-            The governance system allows $BONE token holders to vote on proposals and decisions affecting the platform’s development and operations. This system ensures that the community has a say in the future of DogSwap.            </Typography>
+            The governance system allows $BONE token holders to vote on proposals and decisions affecting the platform’s development and operations. This system ensures that the community has a say in the future of USDog.            </Typography>
           </AccordionDetails>
         </Accordion>
 
         <Accordion expanded={expanded === 'panel10'} onChange={handleChange('panel10')}>
           <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="panel10-content" id="panel10-header">
-            <Typography variant="subtitle1">10. How can I get support if I encounter issues on DogSwap?</Typography>
+            <Typography variant="subtitle1">10. How can I get support if I encounter issues on USDog?</Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography variant="body2">

@@ -1,4 +1,4 @@
-# Code of Conduct - DogSwap
+# Code of Conduct - USDog
 
 ## Our Pledge
 

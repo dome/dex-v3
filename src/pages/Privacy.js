@@ -67,7 +67,7 @@ const PrivacyPolicy = () => {
         </Title>
 
         <Typography variant="body1" paragraph>
-          At DogSwap, we are committed to protecting your privacy. This privacy policy outlines how we handle your personal data and ensure its safety.
+          At USDog, we are committed to protecting your privacy. This privacy policy outlines how we handle your personal data and ensure its safety.
         </Typography>
 
         <SectionHeading variant="h4">

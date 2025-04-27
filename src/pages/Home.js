@@ -18,7 +18,7 @@ const Highlights = () => {
       icon: <SwapHorizRoundedIcon />,
       title: 'Seamless Token Swaps',
       description:
-        'Trade tokens with ease on DogSwap, benefiting from fast, secure, and transparent swaps powered by DeFi innovation.',
+        'Trade tokens with ease on USDog, benefiting from fast, secure, and transparent swaps powered by DeFi innovation.',
     },
     {
       icon: <MonetizationOnRoundedIcon />,
@@ -36,13 +36,13 @@ const Highlights = () => {
       icon: <TrendingUpRoundedIcon />,
       title: 'Stake and Grow',
       description:
-        'Maximize your earnings by staking BONE and participating in governance to shape the future of DogSwap.',
+        'Maximize your earnings by staking BONE and participating in governance to shape the future of USDog.',
     },
     {
       icon: <SupportRoundedIcon />,
       title: '24/7 Community Support',
       description:
-        'Our dedicated team and active community are always here to support your DogSwap journey, no matter where you are.',
+        'Our dedicated team and active community are always here to support your USDog journey, no matter where you are.',
     },
     {
       icon: <InsightsRoundedIcon />,
@@ -76,7 +76,7 @@ const Highlights = () => {
             Highlights
           </Typography>
           <Typography variant="body1" sx={{ color: 'grey.400' }}>
-            Discover why DogSwap stands out: <br></br>
+            Discover why USDog stands out: <br></br>
             Accessability, User-Friendly, Open Source and Community based.
             Enjoy reliable customer support, a strong mintme community and passion for every detail.
           </Typography>

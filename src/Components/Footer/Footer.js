@@ -114,8 +114,8 @@ const Footer = () => {
       case 'Resources':
         return [
           { text: 'Docs', href: 'https://docs.usdog.fi/', external: true },
-          { text: 'Whitepaper', href: 'https://raw.githubusercontent.com/DogToken/DogSwap-v2/main/Whitepaper.md', external: true },
-          { text: 'MintMe', href: 'https://mintme.com/token/DogSwap/', external: true },
+          { text: 'Whitepaper', href: 'https://raw.githubusercontent.com/DogToken/USDog-v2/main/Whitepaper.md', external: true },
+          { text: 'MintMe', href: 'https://mintme.com/token/USDog/', external: true },
           { text: 'FAQs', href: '/faq' },
         ];
       case 'Legal':
@@ -137,7 +137,7 @@ const Footer = () => {
           <Grid container spacing={4}>
             <Grid item xs={12} md={4}>
               <LogoTypography>
-                <IoMdPaw /> DogSwap
+                <IoMdPaw /> USDog
               </LogoTypography>
               <Typography variant="body2" sx={{ mb: 2, maxWidth: '300px' }}>
                 Revolutionizing DeFi on the MintMe SmartChain. Swap tokens, earn rewards, and shape the future of finance.
@@ -183,7 +183,7 @@ const Footer = () => {
           </Grid>
           <Box sx={{ mt: 6, pt: 3, borderTop: '1px solid rgba(0, 0, 0, 0.1)', textAlign: 'center' }}>
             <Typography variant="body2" color="text.secondary">
-              © {year} DogSwap. All rights reserved.
+              © {year} USDog. All rights reserved.
             </Typography>
           </Box>
         </ContentWrapper>

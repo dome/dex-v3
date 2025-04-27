@@ -10,8 +10,8 @@ const MINTMECoins = [
     logoUrl: "https://usdog.fi/images/coins/mintme.png",
   },
   {
-    name: "DogSwap",
-    abbr: "DogSwap",
+    name: "USDog",
+    abbr: "USDog",
     address: "0xb568d6F2aedEBFE388740806C0265bE3b1CA174a",
     logoUrl: "https://usdog.fi/images/coins/dogswap.png",
   },

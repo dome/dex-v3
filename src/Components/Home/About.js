@@ -13,7 +13,7 @@ const About = () => {
       icon: <SwapHorizRoundedIcon style={{ fontSize: 40 }} />,
       title: 'Seamless Token Swaps',
       description:
-        'Trade tokens with ease on DogSwap, benefiting from fast, secure, and transparent swaps powered by DeFi innovation.',
+        'Trade tokens with ease on USDog, benefiting from fast, secure, and transparent swaps powered by DeFi innovation.',
     },
     {
       icon: <MonetizationOnRoundedIcon style={{ fontSize: 40 }} />,
@@ -31,13 +31,13 @@ const About = () => {
       icon: <TrendingUpRoundedIcon style={{ fontSize: 40 }} />,
       title: 'Stake and Grow',
       description:
-        'Maximize your earnings by staking BONE and participating in governance to shape the future of DogSwap.',
+        'Maximize your earnings by staking BONE and participating in governance to shape the future of USDog.',
     },
     {
       icon: <SupportRoundedIcon style={{ fontSize: 40 }} />,
       title: '24/7 Community Support',
       description:
-        'Our dedicated team and active community are always here to support your DogSwap journey, no matter where you are.',
+        'Our dedicated team and active community are always here to support your USDog journey, no matter where you are.',
     },
     {
       icon: <InsightsRoundedIcon style={{ fontSize: 40 }} />,
@@ -60,10 +60,10 @@ const About = () => {
       <Container>
         {/* Hero Header */}
         <Typography variant="h3" gutterBottom align="center">
-          About DogSwap
+          About USDog
         </Typography>
         <Typography variant="body1" sx={{ color: 'grey.400', mb: 4 }} align="center">
-          DogSwap is dedicated to providing a seamless, secure, and rewarding DeFi experience. Explore our platform and discover how you can benefit from our unique features.
+          USDog is dedicated to providing a seamless, secure, and rewarding DeFi experience. Explore our platform and discover how you can benefit from our unique features.
         </Typography>
 
         <Grid container spacing={4}>
@@ -74,7 +74,7 @@ const About = () => {
                 Our Mission
               </Typography>
               <Typography variant="body2" sx={{ color: 'grey.400', mb: 2 }}>
-                At DogSwap, we believe in empowering users through accessible and innovative decentralized finance solutions. Our platform is built with community, transparency, and security at its core.
+                At USDog, we believe in empowering users through accessible and innovative decentralized finance solutions. Our platform is built with community, transparency, and security at its core.
               </Typography>
               <Typography variant="body2" sx={{ color: 'grey.400' }}>
                 Join us in our journey as we redefine the DeFi landscape and create opportunities for all.

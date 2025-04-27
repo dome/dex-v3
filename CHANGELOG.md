@@ -137,7 +137,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Profile Dashboard split into components
 - Coinlist altered to original
 - Featured Pool has altered UI & Project link added
-- Frontpage editing to match DogSwap functions
+- Frontpage editing to match USDog functions
 - Bone Pools have 10% fee if unused and no rewards
 - Deposit / Withdraw / Claim buttons updated
 - Pool (in)activity and visible listing
@@ -265,9 +265,9 @@ Small incremental update
 
 ## [2.1.0] - 2024-08-27
 
-We're super excited to announce `DogSwap` 2.0!
+We're super excited to announce `USDog` 2.0!
 
-This version is a beta product for the next version of DogSwap.
+This version is a beta product for the next version of USDog.
 I am starting here with a counter, as this is also a public available demo.
 
 Lots of links in the footer and dash can contain dummy data for now that needs to be altered.
