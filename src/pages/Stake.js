@@ -248,9 +248,9 @@ export default function Stake() {
       const [walletBalance, totalSupply, pendingRewards, userInfo, poolInfo] = await Promise.all([
         boneTokenContract.balanceOf(await signer.getAddress()),
         boneTokenContract.totalSupply(),
-        masterChefContract.pendingBone(3, await signer.getAddress()),
-        masterChefContract.userInfo(3, await signer.getAddress()),
-        masterChefContract.poolInfo(3)
+        masterChefContract.pendingBone(0, await signer.getAddress()),
+        masterChefContract.userInfo(0, await signer.getAddress()),
+        masterChefContract.poolInfo(0)
       ]);
   
       // Format and set balances
@@ -300,7 +300,7 @@ export default function Stake() {
       await approveTx.wait();
 
       const masterChefContract = getMasterChefInstance(networkId, signer);
-      const transaction = await masterChefContract.deposit(3, amountToStake, { value: 0 });
+      const transaction = await masterChefContract.deposit(0, amountToStake, { value: 0 });
       await transaction.wait();
 
       setMessage({ text: 'Tokens staked successfully!', severity: 'success' });
