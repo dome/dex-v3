@@ -64,7 +64,7 @@ Once MetaMask is installed, you need to configure it to connect to the MintMe ne
 - Scroll down and select "Custom RPC".
 - Enter the following network details:
   - Network Name: MintMe
-  - New RPC URL: https://node.1000x.ch
+  - New RPC URL: https://sichang-rpc.thaichain.org
   - ChainID: 24734
   - Symbol: MINTME
 - Click "Save" to add the MintMe network.

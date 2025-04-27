@@ -12,13 +12,13 @@ const MINTMECoins = [
   {
     name: "DogSwap",
     abbr: "DogSwap",
-    address: "0x1628160C66e0330090248a163A34Ba5B5A82D4f7",
+    address: "0xb568d6F2aedEBFE388740806C0265bE3b1CA174a",
     logoUrl: "https://dogswap.xyz/images/coins/dogswap.png",
   },
   {
     name: "Bone",
     abbr: "BONE",
-    address: "0x9D8dd79F2d4ba9E1C3820d7659A5F5D2FA1C22eF",
+    address: "0x7B733A15e71C1E6f04f165956cdF88a2a644A84c",
     logoUrl: "https://dogswap.xyz/images/coins/bone.png",
   },
   {

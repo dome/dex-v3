@@ -132,7 +132,7 @@ const StyledSlider = styled(Slider)(({ theme }) => ({
 }));
 
 // Constants
-const MASTER_CHEF_ADDRESS = '0x4f79af8335d41A98386f09d79D19Ab1552d0b925';
+const MASTER_CHEF_ADDRESS = '0x5db2B3f16E1a28ad4fe1229a2dc01f264a3f0614';
 
 const getMasterChefInstance = (networkId, signer) => {
   return new Contract(MASTER_CHEF_ADDRESS, masterChefABI, signer);
@@ -161,7 +161,7 @@ export default function Stake() {
   const [bonePriceInMintMe] = bonePriceInMintMeState;
   const [bonePriceInUSD] = bonePriceInUSDState;
 
-  const BONE_TOKEN_ADDRESS = "0x9D8dd79F2d4ba9E1C3820d7659A5F5D2FA1C22eF";
+  const BONE_TOKEN_ADDRESS = "0x7B733A15e71C1E6f04f165956cdF88a2a644A84c";
   const BONE_TOKEN_DECIMALS = 18;
 
   const getBoneTokenInstance = (networkId, signer) => {
@@ -169,14 +169,7 @@ export default function Stake() {
   };
 
   const POOLS = [
-    { id: 0, name: "$BONE-WMINT", address: "0x21D897515b2C4393F7a23BBa210b271D13CCdF10" },
-    { id: 1, name: "$BONE-USDC", address: "0x0BA7216BD34CAF32d1FBCb9341997328b38a03a3" },
-    { id: 2, name: "WMINT-USDC", address: "0x1Ea95048A66455C3852dBE4620A3970831564189" },
-    { id: 5, name: "WMINT-DOGSP", address: "0x07Da7DA47b3C71a023d194ff623ab3a737c46393" },
-    { id: 6, name: "$BONE-DOGSP", address: "0xCfFF901398cB001D740FFf564D2dcc9Dbd898a11" },
-    { id: 7, name: "1000x-WMINT", address: "0x34D99393593245F3268ceAcf35a17407C49c4D59" },
-    { id: 8, name: "1000x-$BONE", address: "0x9763E377ce4E6767F7760D9E1FC7E3c2afBc9Cfb" },
-    { id: 9, name: "1000x-DOGSP", address: "0x0cC0D3382fC2826E18606C968842A91e5C52e2b3" },
+    { id: 1, name: "$BONE-WMINT", address: "0xA906aa69b917563D07FedFDd69cc195D1AeE00b9" },
   ];
 
   const fetchTVLData = async () => {

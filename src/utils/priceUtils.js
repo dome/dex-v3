@@ -11,7 +11,7 @@ const POOLS = [
 const BONE_TOKEN_DECIMALS = 18;
 
 export const getBonePriceInMintMe = async () => {
-  const provider = new ethers.providers.JsonRpcProvider("https://node.1000x.ch");
+  const provider = new ethers.providers.JsonRpcProvider("https://sichang-rpc.thaichain.org");
   const bonePool = POOLS.find(pool => pool.name === "$BONE-WMINT");
   const boneReserves = await new ethers.Contract(bonePool.address, pairABI, provider).getReserves();
   const boneReserve0 = boneReserves[0] / 10 ** BONE_TOKEN_DECIMALS;

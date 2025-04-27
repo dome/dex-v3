@@ -63,6 +63,7 @@ export async function getDecimals(token) {
       return result;
     }).catch((error) => {
       console.log('No tokenDecimals function for this token, set to 0');
+      console.log(token);
       return 0;
     });
     return decimals;
