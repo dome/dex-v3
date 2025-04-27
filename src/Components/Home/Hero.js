@@ -82,7 +82,7 @@ export default function Hero() {
               color="primary"
               size="large"
               fullWidth
-              onClick={() => window.open('https://docs.dogswap.xyz', '_blank')}
+              onClick={() => window.open('https://docs.usdog.fi', '_blank')}
             >
               Learn More
             </Button>

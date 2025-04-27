@@ -11,7 +11,7 @@ export const poolData = [
         weight: '8.62',
         boost: 'MAX',
         lpTokenAddress: '0xA906aa69b917563D07FedFDd69cc195D1AeE00b9',
-        imageTokenA: 'https://dogswap.xyz/images/coins/bone.png',
-        imageTokenB: 'https://dogswap.xyz/images/coins/dogswap.png',
+        imageTokenA: 'https://usdog.fi/images/coins/bone.png',
+        imageTokenB: 'https://usdog.fi/images/coins/dogswap.png',
     }
   ];

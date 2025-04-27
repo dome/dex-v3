@@ -1,5 +1,5 @@
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/DogToken/Dogswap-v2)
-![Website](https://img.shields.io/website?url=https%3A%2F%2Fdogswap.xyz)
+![Website](https://img.shields.io/website?url=https%3A%2F%2Fusdog.fi)
 ![GitHub contributors](https://img.shields.io/github/contributors/DogToken/DogSwap-v2)
 ![GitHub Issues](https://img.shields.io/github/issues/DogToken/DogSwap-v2)
 ![GitHub Pull Requests](https://img.shields.io/github/issues-pr/DogToken/DogSwap-v2)
@@ -78,7 +78,7 @@ Once you have MINTME in your wallet, you're ready to start using DogSwap!
 
 ### 4. Connect Your Wallet to DogSwap
 
-Go to [dogswap.com](https://dogswap.xyz) and click "Connect Wallet" in the top right. This will bring up your MetaMask wallet. Confirm the connection and you're all set!
+Go to [dogswap.com](https://usdog.fi) and click "Connect Wallet" in the top right. This will bring up your MetaMask wallet. Confirm the connection and you're all set!
 
 Now you can start swapping tokens and providing liquidity on DogSwap. Let us know if you have any other questions!
 

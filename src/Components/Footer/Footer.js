@@ -113,7 +113,7 @@ const Footer = () => {
         ];
       case 'Resources':
         return [
-          { text: 'Docs', href: 'https://docs.dogswap.xyz/', external: true },
+          { text: 'Docs', href: 'https://docs.usdog.fi/', external: true },
           { text: 'Whitepaper', href: 'https://raw.githubusercontent.com/DogToken/DogSwap-v2/main/Whitepaper.md', external: true },
           { text: 'MintMe', href: 'https://mintme.com/token/DogSwap/', external: true },
           { text: 'FAQs', href: '/faq' },

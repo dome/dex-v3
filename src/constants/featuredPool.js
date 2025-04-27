@@ -16,8 +16,8 @@ export const poolData = [
         poolId: 1,
         poolType: "Community",
         lpTokenAddress: "0xA906aa69b917563D07FedFDd69cc195D1AeE00b9",
-        imageTokenA: "https://dogswap.xyz/images/coins/mintme.png",
-        imageTokenB: "https://dogswap.xyz/images/coins/xatter.png",
+        imageTokenA: "https://usdog.fi/images/coins/mintme.png",
+        imageTokenB: "https://usdog.fi/images/coins/xatter.png",
         projectLink: "https://ancientbeast.com"
     },
 ];

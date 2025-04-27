@@ -1,6 +1,5 @@
 const newsItems = [
-    "Visit our featured pool: https://dogswap.xyz/featured",
-    "The previous release is still available on https://old.dogswap.xyz",
+    "Visit our featured pool: https://usdog.fi/featured",
     "Does anyone know the location of John Connor?",
     "The Bone Pools are active when payment is processed on MintMe!",
     "Congratz DreadKnight on receiving a free featured spot!",

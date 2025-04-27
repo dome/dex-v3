@@ -122,8 +122,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Public Release
 
-- The main website "https://dogswap.xyz" will be moved to "https://old.dogswap.xyz"
-- The beta will be moved from "https://beta.dogswap.xyz" to "https://dogswap.xyz" acting as the new frontpage.
+- The main website "https://usdog.fi" will be moved to "https://old.usdog.fi"
+- The beta will be moved from "https://beta.usdog.fi" to "https://usdog.fi" acting as the new frontpage.
 
 ### New Features
 
@@ -217,7 +217,7 @@ dead links updated to work, changed twitter to X and multiple UI edits
 ### New Files
 
 - Added images folder for UI
-- Added [Docs](https://docs.dogswap.xyz)
+- Added [Docs](https://docs.usdog.fi)
 
 ## [2.1.2] - 2024-08-30
 
