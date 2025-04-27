@@ -354,7 +354,7 @@ export default function Stake() {
       const signer = getSigner(provider);
 
       const masterChefContract = getMasterChefInstance(networkId, signer);
-      const transaction = await masterChefContract.deposit(3, 0); // Depositing 0 amount claims rewards
+      const transaction = await masterChefContract.deposit(0, 0); // Depositing 0 amount claims rewards
       await transaction.wait();
 
       setMessage({ text: 'Rewards claimed successfully!', severity: 'success' });
