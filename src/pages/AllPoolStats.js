@@ -143,7 +143,7 @@ const AllPoolStats = () => {
   const calculateTokenValue = useCallback((amount, symbol) => {
     const numAmount = parseFloat(amount);
     switch (symbol) {
-      case 'WMINT':
+      case 'WCO2E':
         return numAmount * mintMePriceInUsd;
       case '$CO2DEX':
         return numAmount * bonePriceInUSD;

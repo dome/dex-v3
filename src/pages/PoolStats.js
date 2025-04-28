@@ -75,7 +75,7 @@ const StatValue = styled(Typography)(({ theme }) => ({
 const TOKEN_DECIMALS = {
   'USDC': 6,
   '$CO2DEX': 18,
-  'WMINT': 18,
+  'WCO2E': 18,
   'DOGSP': 12,
   '1000x': 12,
   'XTR': 12,
@@ -95,15 +95,15 @@ const TOKEN_DECIMALS = {
 
 // Pools configuration
 const POOLS = [
-  { id: 0, name: "WMINT-$CO2DEX", address: "0x21D897515b2C4393F7a23BBa210b271D13CCdF10" },
+  { id: 0, name: "WCO2E-$CO2DEX", address: "0xf77597F4165DC70C74f93F04EB98c62eE222fadA" },
   { id: 1, name: "$CO2DEX-USDC", address: "0x0BA7216BD34CAF32d1FBCb9341997328b38a03a3" },
-  { id: 2, name: "WMINT-USDC", address: "0x1Ea95048A66455C3852dBE4620A3970831564189" },
+  { id: 2, name: "WCO2E-USDC", address: "0x1Ea95048A66455C3852dBE4620A3970831564189" },
   { id: 5, name: "DOGSP-CO2DEX", address: "0x07Da7DA47b3C71a023d194ff623ab3a737c46393" },
-  { id: 6, name: "WMINT-DOGSP", address: "0xCfFF901398cB001D740FFf564D2dcc9Dbd898a11" },
-  { id: 7, name: "WMINT-1000x", address: "0x34D99393593245F3268ceAcf35a17407C49c4D59" },
+  { id: 6, name: "WCO2E-DOGSP", address: "0xCfFF901398cB001D740FFf564D2dcc9Dbd898a11" },
+  { id: 7, name: "WCO2E-1000x", address: "0x34D99393593245F3268ceAcf35a17407C49c4D59" },
   { id: 8, name: "1000x-$CO2DEX", address: "0x9763E377ce4E6767F7760D9E1FC7E3c2afBc9Cfb" },
   { id: 9, name: "DOGSP-1000x", address: "0x0cC0D3382fC2826E18606C968842A91e5C52e2b3" },
-  { id: 10, name: "WMINT-XTR", address: "0x1d2a64b660E572ce653f35Ce5A9A655D05ae9fd0" },
+  { id: 10, name: "WCO2E-XTR", address: "0x1d2a64b660E572ce653f35Ce5A9A655D05ae9fd0" },
   { id: 11, name: "DAM-CO2DEX", address: "0xDaEEc4298a0ED4796E271188D2D7Bbcf53733Fb1" },
   { id: 12, name: "CO2DEX-ZAR", address: "0xE4020B6d3073B79027e2350705f9230903130791" },
   { id: 13, name: "CO2DEX-XTR", address: "0x32D8Da81B7b4a562b0852ed6823BE8b2CCFa6495" },
@@ -148,7 +148,7 @@ export default function PoolsStatistics() {
   const calculateTokenValue = (amount, symbol) => {
     const numAmount = parseFloat(amount);
     switch (symbol) {
-      case 'WMINT':
+      case 'WCO2E':
         return numAmount * mintMePriceInUsd;
       case '$CO2DEX':
         return numAmount * bonePriceInUSD;

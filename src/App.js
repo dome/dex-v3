@@ -46,7 +46,7 @@ const App = () => {
   ReactGA.initialize('G-823N1D2MNZ');
 
   const [mintMePriceInUsd, setMintMePriceInUsd] = React.useState("mintMePriceInUsd");
-  const [bonePriceInMintMe, setBonePriceInMintMe] = React.useState("bonePriceInMintMe");
+  const [dexPriceInCO2e, setBonePriceInMintMe] = React.useState("dexPriceInCO2e");
   const [bonePriceInUSD, setBonePriceInUSD] = React.useState("bonePriceInUSD");
 
   React.useEffect(() => {
@@ -76,7 +76,7 @@ const App = () => {
     <Context.Provider 
       value={{
         mintMePriceInUsdState: [mintMePriceInUsd, setMintMePriceInUsd],
-        bonePriceInMintMeState: [bonePriceInMintMe, setBonePriceInMintMe],
+        bonePriceInMintMeState: [dexPriceInCO2e, setBonePriceInMintMe],
         bonePriceInUSDState: [bonePriceInUSD, setBonePriceInUSD]
       }}
     >

@@ -1,23 +1,14 @@
 export const poolData = [
     {
-        title: "CO2e / XatteR",
-        subTitle: "Woof woof! 🐾 Let me tell you about XatteR, the mighty token powering up the Ancient Beast game! 🐉 \n\n \
-        This token isn’t just for fetching treats—it's all about securing funding to keep the game fresh and fur-ocious! 🐺 \n\n \
-        With XTR, you can lead the pack: vote on project direction, tip your fellow beasts in Discord, and even snag yourself some pawsome roles! 🎨🐾 \n\n \
-        Artists and freelancers in the community? They're eating good, too! But wait, the tail-wagging fun doesn’t stop there! \n\n \
-        There’s a whole bunch of clawsome features coming soon: from balancing beast stats to battling for tokens.\n\n \
-        Want more? You’ll be staking your tokens, building cities, generating interest, and even crafting powerful units to defend your lands. \n\n \
-        You’ll be the alpha of your realm in no time! 🏰🐾 \
-        And don’t worry, casual doggos, the vanilla version is still free to play. \n\n \
-        But for those hungry for more, XTR unlocks NFTs, skins, new units, and much more to customize and dominate the battlefield! 🐾💥 \n\n \
-        So what are you waiting for? Get your paws on XatteR and start growling your way to victory!",
-        BONE_TOKEN_ADDRESS: "0x7B733A15e71C1E6f04f165956cdF88a2a644A84c",
-        MASTER_CHEF_ADDRESS: "0x5db2B3f16E1a28ad4fe1229a2dc01f264a3f0614",
+        title: "CO2e / CO2DEX",
+        subTitle: "",
+        BONE_TOKEN_ADDRESS: "0x590960859Da3Aa90ed948C5F4D15463Bc8f5a321",
+        MASTER_CHEF_ADDRESS: "0x9DA6517Ca9162a9daC0De7483ab7d969B9B5b154",
         poolId: 1,
         poolType: "Community",
-        lpTokenAddress: "0xA906aa69b917563D07FedFDd69cc195D1AeE00b9",
-        imageTokenA: "https://dex.co2e.cc/images/coins/mintme.png",
-        imageTokenB: "https://dex.co2e.cc/images/coins/xatter.png",
-        projectLink: "https://ancientbeast.com"
+        lpTokenAddress: "0xf77597F4165DC70C74f93F04EB98c62eE222fadA",
+        imageTokenA: 'https://pub-89889c1f7aea4fc08378f41c30a7fa44.r2.dev/co2e-logo.png',
+        imageTokenB: 'https://pub-89889c1f7aea4fc08378f41c30a7fa44.r2.dev/co2dex.png',
+        projectLink: "https://co2e.cc"
     },
 ];

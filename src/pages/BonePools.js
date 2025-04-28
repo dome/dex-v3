@@ -169,7 +169,7 @@ const Pools = () => {
   return (
     <RootContainer maxWidth="lg">
       <Header>
-        <TitleTypography variant="h4">Bone Pools</TitleTypography>
+        <TitleTypography variant="h4">CO2eDEX Pools</TitleTypography>
         <FormControlLabel
           control={
             <Switch

@@ -132,7 +132,7 @@ const StyledSlider = styled(Slider)(({ theme }) => ({
 }));
 
 // Constants
-const MASTER_CHEF_ADDRESS = '0x5db2B3f16E1a28ad4fe1229a2dc01f264a3f0614';
+const MASTER_CHEF_ADDRESS = '0x9DA6517Ca9162a9daC0De7483ab7d969B9B5b154';
 
 const getMasterChefInstance = (networkId, signer) => {
   return new Contract(MASTER_CHEF_ADDRESS, masterChefABI, signer);
@@ -158,10 +158,10 @@ export default function Stake() {
   
   const { mintMePriceInUsdState, bonePriceInMintMeState, bonePriceInUSDState } = React.useContext(Context);
   const [mintMePriceInUsd] = mintMePriceInUsdState;
-  const [bonePriceInMintMe] = bonePriceInMintMeState;
+  const [dexPriceInCO2e] = bonePriceInMintMeState;
   const [bonePriceInUSD] = bonePriceInUSDState;
 
-  const BONE_TOKEN_ADDRESS = "0x7B733A15e71C1E6f04f165956cdF88a2a644A84c";
+  const BONE_TOKEN_ADDRESS = "0x590960859Da3Aa90ed948C5F4D15463Bc8f5a321";
   const BONE_TOKEN_DECIMALS = 18;
 
   const getBoneTokenInstance = (networkId, signer) => {
@@ -169,7 +169,7 @@ export default function Stake() {
   };
 
   const POOLS = [
-    { id: 1, name: "$CO2DEX-WMINT", address: "0xA906aa69b917563D07FedFDd69cc195D1AeE00b9" },
+    { id: 1, name: "$CO2DEX-WCO2E", address: "0xf77597F4165DC70C74f93F04EB98c62eE222fadA" },
   ];
 
   const fetchTVLData = async () => {
@@ -181,13 +181,13 @@ export default function Stake() {
       const signer = getSigner(provider);
   
       // Calculate price of $CO2DEX in CO2e
-      const bonePool = POOLS.find(pool => pool.name === "$CO2DEX-WMINT");
+      const bonePool = POOLS.find(pool => pool.name === "$CO2DEX-WCO2E");
       const boneReserves = await new Contract(bonePool.address, pairABI, signer).getReserves();
       const boneReserve0 = boneReserves[0] / 10 ** BONE_TOKEN_DECIMALS;
       const boneReserve1 = boneReserves[1] / 10 ** 18;
       const boneInWMINT = getTokenPrice(boneReserve0, boneReserve1);
-      const bonePriceInMintMe = 1 / boneInWMINT;
-      const bonePriceInUSDTemp = bonePriceInMintMe * mintmePriceData;
+      const dexPriceInCO2e = 1 / boneInWMINT;
+      const bonePriceInUSDTemp = dexPriceInCO2e * mintmePriceData;
   
       // Calculate TVL using the CO2e price
       let tvl = 0;
@@ -201,7 +201,7 @@ export default function Stake() {
   
         let token0ValueInUSD;
         let token1ValueInUSD;
-        if (token0 === "WMINT") {
+        if (token0 === "WCO2E") {
           token0ValueInUSD = reserve0 * mintmePriceData;
         } else if (token0 === "$CO2DEX") {
           token0ValueInUSD = reserve0 * bonePriceInUSDTemp;
@@ -209,7 +209,7 @@ export default function Stake() {
           token0ValueInUSD = reserve0;
         }
   
-        if (token1 === "WMINT") {
+        if (token1 === "WCO2E") {
           token1ValueInUSD = reserve1 * mintmePriceData;
         } else if (token1 === "$CO2DEX") {
           token1ValueInUSD = reserve1 * bonePriceInUSDTemp;
@@ -575,7 +575,7 @@ export default function Stake() {
           <Box>
             <Typography variant="subtitle1">CO2DEX Price (CO2e)</Typography>
             <BalanceTypography variant="h4">
-              {bonePriceInMintMe || 'N/A'} CO2E
+              {dexPriceInCO2e || 'N/A'} CO2E
             </BalanceTypography>
           </Box>
         </Tooltip>

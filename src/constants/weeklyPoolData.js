@@ -2,16 +2,16 @@ export const poolData = [
     {
         title: '$CO2DEX / CO2eDEX',
         subTitle: 'Stake your $CO2DEX / CO2eDEX LP tokens and get $CO2DEX rewards!',
-        BONE_TOKEN_ADDRESS: '0x7B733A15e71C1E6f04f165956cdF88a2a644A84c',
-        MASTER_CHEF_ADDRESS: '0x5db2B3f16E1a28ad4fe1229a2dc01f264a3f0614',
+        BONE_TOKEN_ADDRESS: '0x590960859Da3Aa90ed948C5F4D15463Bc8f5a321',
+        MASTER_CHEF_ADDRESS: '0x9DA6517Ca9162a9daC0De7483ab7d969B9B5b154',
         poolId: 1,
         poolType: 'Weekly',
         active: 'Yes',
         fee: '0.5',
         weight: '8.62',
         boost: 'MAX',
-        lpTokenAddress: '0xA906aa69b917563D07FedFDd69cc195D1AeE00b9',
-        imageTokenA: 'https://dex.co2e.cc/images/coins/bone.png',
-        imageTokenB: 'https://dex.co2e.cc/images/coins/dogswap.png',
+        lpTokenAddress: '0xf77597F4165DC70C74f93F04EB98c62eE222fadA',
+        imageTokenA: 'https://pub-89889c1f7aea4fc08378f41c30a7fa44.r2.dev/co2e-logo.png',
+        imageTokenB: 'https://pub-89889c1f7aea4fc08378f41c30a7fa44.r2.dev/co2dex.png',
     }
   ];

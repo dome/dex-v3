@@ -20,6 +20,12 @@ const MINTMECoins = [
     abbr: "TVREF",
     address: "0x0d8A4c62557db4eba03d5b1CA1528738a79a0369",
     logoUrl: "https://pub-89889c1f7aea4fc08378f41c30a7fa44.r2.dev/tvref.png",
+  },
+  {
+    name: "CO2e DEX",
+    abbr: "CO2DEX",
+    address: "0x590960859Da3Aa90ed948C5F4D15463Bc8f5a321",
+    logoUrl: "https://pub-89889c1f7aea4fc08378f41c30a7fa44.r2.dev/co2dex.png",
   }
 ]
 

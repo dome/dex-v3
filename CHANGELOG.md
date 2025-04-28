@@ -128,7 +128,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### New Features
 
 - Admin Dashboard (Permissioned)
-- Bone Pools (Seperate Page)
+- CO2eDEX Pools (Seperate Page)
 - Weekly Pools (Added to pools)
 - Active / Inactive Pools
 
@@ -138,7 +138,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Coinlist altered to original
 - Featured Pool has altered UI & Project link added
 - Frontpage editing to match CO2eDEX functions
-- Bone Pools have 10% fee if unused and no rewards
+- CO2eDEX Pools have 10% fee if unused and no rewards
 - Deposit / Withdraw / Claim buttons updated
 - Pool (in)activity and visible listing
 - Pools UI improved with hider, section select
