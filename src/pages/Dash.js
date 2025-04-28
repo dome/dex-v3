@@ -204,7 +204,7 @@ const ProfileDashboard = () => {
             icon={<TokenIcon />}
             isLoading={loading.balance}
             content={
-              <Typography variant="h6">{balance} MINTME</Typography>
+              <Typography variant="h6">{balance} CO2E</Typography>
             }
           />
         </Grid>

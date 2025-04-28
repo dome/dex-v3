@@ -47,7 +47,7 @@ export default function Hero() {
                 color: 'primary.main',
               }}
             >
-              USDog
+              CO2eDEX
             </Typography>
           </Typography>
           <Typography
@@ -57,8 +57,8 @@ export default function Hero() {
               width: { sm: '100%', md: '80%' },
             }}
           >
-            Explore one of MintMe's top DeFi, delivering high-yielding,
-            earning pools. Grow your MintMe experience on the USDog
+            Explore one of CO2e's top DeFi, delivering high-yielding,
+            earning pools. Grow your CO2e experience on the CO2eDEX
             ecosystem and start earning today!
           </Typography>
           <Stack

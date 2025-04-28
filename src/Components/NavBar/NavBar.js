@@ -79,8 +79,8 @@ const NavBar = () => {
         <div className="navbar-container">
           <div className="navbar-logo">
             <Link to="/" className="logo-link">
-              <img src="/images/ui/logo.png" alt="USDog Logo" className="logo-image" />
-              <span className="logo-text">USDog</span>
+              <img src="/images/ui/logo.png" alt="CO2eDEX Logo" className="logo-image" />
+              <span className="logo-text">CO2eDEX</span>
             </Link>
           </div>
           <div className="menu-icon" onClick={toggleMenu}>

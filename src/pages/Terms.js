@@ -68,7 +68,7 @@ const TermsAndConditions = () => {
         </Title>
 
         <Typography variant="body1" paragraph>
-          Welcome to USDog. These terms and conditions explain the rules and regulations for using our website and services.
+          Welcome to CO2eDEX. These terms and conditions explain the rules and regulations for using our website and services.
         </Typography>
 
         <SectionHeading variant="h4">1. Introduction</SectionHeading>
@@ -80,7 +80,7 @@ const TermsAndConditions = () => {
           2. Intellectual Property Rights
         </SectionHeading>
         <Typography variant="body2" paragraph>
-          All content on this website, including text, images, graphics, and code, is the intellectual property of USDog. You may not duplicate or distribute any content without explicit permission.
+          All content on this website, including text, images, graphics, and code, is the intellectual property of CO2eDEX. You may not duplicate or distribute any content without explicit permission.
         </Typography>
 
         <SectionHeading variant="h4">

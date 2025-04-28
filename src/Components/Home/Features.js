@@ -124,10 +124,10 @@ export default function Features() {
       <Container id="features" sx={{ py: { xs: 8, sm: 16 } }}>
         <Box sx={{ width: { sm: '100%', md: '60%' } }}>
           <Typography component="h2" variant="h4" gutterBottom sx={{ color: 'text.primary' }}>
-            USDog Features
+            CO2eDEX Features
           </Typography>
           <Typography variant="body1" sx={{ color: 'text.secondary', mb: { xs: 2, sm: 4 } }}>
-            We are continually striving to improve and make the MintMe community a safe space to
+            We are continually striving to improve and make the CO2e community a safe space to
             trade and explore innovative DeFi solutions, including the BONE token. Our focus is on
             building a user-friendly environment, fostering community engagement, and ensuring
             transparency in all transactions.

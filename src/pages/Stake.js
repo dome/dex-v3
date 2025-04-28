@@ -180,7 +180,7 @@ export default function Stake() {
       const provider = getProvider();
       const signer = getSigner(provider);
   
-      // Calculate price of $BONE in MintMe
+      // Calculate price of $BONE in CO2e
       const bonePool = POOLS.find(pool => pool.name === "$BONE-WMINT");
       const boneReserves = await new Contract(bonePool.address, pairABI, signer).getReserves();
       const boneReserve0 = boneReserves[0] / 10 ** BONE_TOKEN_DECIMALS;
@@ -189,7 +189,7 @@ export default function Stake() {
       const bonePriceInMintMe = 1 / boneInWMINT;
       const bonePriceInUSDTemp = bonePriceInMintMe * mintmePriceData;
   
-      // Calculate TVL using the MintMe price
+      // Calculate TVL using the CO2e price
       let tvl = 0;
       for (const pool of POOLS) {
         const poolReserves = await new Contract(pool.address, pairABI, signer).getReserves();
@@ -406,7 +406,7 @@ export default function Stake() {
     <RootContainer maxWidth="lg">
       <TitleTypography variant="h3">$BONE Staking Dashboard</TitleTypography>
       <SubTitleTypography variant="body1">
-        Stake your $BONE tokens to earn rewards and support the USDog ecosystem.
+        Stake your $BONE tokens to earn rewards and support the CO2eDEX ecosystem.
       </SubTitleTypography>
       <Grid container spacing={3}>
         <Grid item xs={12} sm={6} md={3}>
@@ -561,9 +561,9 @@ export default function Stake() {
               </Tooltip>
             </Grid>
             <Grid item xs={12} sm={6}>
-            <Tooltip title="Current price of MintMe in USD" arrow placement="top">
+            <Tooltip title="Current price of CO2e in USD" arrow placement="top">
               <Box>
-                <Typography variant="subtitle1">MintMe Price (USD)</Typography>
+                <Typography variant="subtitle1">CO2e Price (USD)</Typography>
                 <BalanceTypography variant="h4">
                   ${mintMePriceInUsd || 'N/A'}
                 </BalanceTypography>
@@ -571,11 +571,11 @@ export default function Stake() {
             </Tooltip>
           </Grid>
           <Grid item xs={12} sm={6}>
-        <Tooltip title="Current price of BONE in MintMe" arrow placement="top">
+        <Tooltip title="Current price of BONE in CO2e" arrow placement="top">
           <Box>
-            <Typography variant="subtitle1">BONE Price (MintMe)</Typography>
+            <Typography variant="subtitle1">BONE Price (CO2e)</Typography>
             <BalanceTypography variant="h4">
-              {bonePriceInMintMe || 'N/A'} MINTME
+              {bonePriceInMintMe || 'N/A'} CO2E
             </BalanceTypography>
           </Box>
         </Tooltip>

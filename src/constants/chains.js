@@ -10,7 +10,7 @@ export const ChainId = {
   AUTONITY: 65010000,
   PARASTATE: 123,
   GANCHE: 1337,
-  MINTME: 171
+  CO2E: 171
 };
 
 export const routerAddress = new Map();
@@ -23,5 +23,5 @@ routerAddress.set(ChainId.DEVNET, "0x04e555283D37aE85F6eB311fe2578F3B3f3dFc52");
 routerAddress.set(ChainId.AUTONITY, "0x04e555283D37aE85F6eB311fe2578F3B3f3dFc52");
 routerAddress.set(ChainId.PARASTATE, "0x07a1905D44feeA439ceFAabd11a63bEf684abE11");
 routerAddress.set(ChainId.GANCHE, "0x0F44AC51198D8F99847db6C431448dBC673428f1");
-routerAddress.set(ChainId.MINTME, "0xd49B7CB086a17E46AA420cf52eCC8C1061fa4dD4");
+routerAddress.set(ChainId.CO2E, "0xd49B7CB086a17E46AA420cf52eCC8C1061fa4dD4");
 

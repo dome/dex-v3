@@ -51,8 +51,8 @@ const ConnectWalletPage = () => {
                 chainName: desiredNetworkName,
                 rpcUrls: [rpcUrl],
                 nativeCurrency: {
-                  name: "MintMe Coin",
-                  symbol: "MINTME",
+                  name: "CO2e Coin",
+                  symbol: "CO2E",
                   decimals: 18,
                 },
                 blockExplorerUrls: ["https://mintme.com/explorer"],

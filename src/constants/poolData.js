@@ -1,7 +1,7 @@
 export const poolData = [
     {
-      title: 'USDog / MintMe',
-      subTitle: 'Stake your Dogswap / MintMe LP tokens and get $BONE rewards!',
+      title: 'CO2eDEX / CO2e',
+      subTitle: 'Stake your Dogswap / CO2e LP tokens and get $BONE rewards!',
       BONE_TOKEN_ADDRESS: '0x9D8dd79F2d4ba9E1C3820d7659A5F5D2FA1C22eF',
       MASTER_CHEF_ADDRESS: '0x4f79af8335d41A98386f09d79D19Ab1552d0b925',
       poolId: 5,
@@ -15,8 +15,8 @@ export const poolData = [
       imageTokenB: 'https://usdog.fi/images/coins/mintme.png',
     },
     {
-       title: '$BONE / MintMe',
-       subTitle: 'Stake your $BONE / MintMe LP tokens and get $BONE rewards!',
+       title: '$BONE / CO2e',
+       subTitle: 'Stake your $BONE / CO2e LP tokens and get $BONE rewards!',
        BONE_TOKEN_ADDRESS: '0x9D8dd79F2d4ba9E1C3820d7659A5F5D2FA1C22eF',
        MASTER_CHEF_ADDRESS: '0x4f79af8335d41A98386f09d79D19Ab1552d0b925',
        poolId: 0,
@@ -30,8 +30,8 @@ export const poolData = [
        imageTokenB: 'https://usdog.fi/images/coins/mintme.png',
     },
     {
-        title: '$BONE / USDog',
-        subTitle: 'Stake your $BONE / USDog LP tokens and get $BONE rewards!',
+        title: '$BONE / CO2eDEX',
+        subTitle: 'Stake your $BONE / CO2eDEX LP tokens and get $BONE rewards!',
         BONE_TOKEN_ADDRESS: '0x9D8dd79F2d4ba9E1C3820d7659A5F5D2FA1C22eF',
         MASTER_CHEF_ADDRESS: '0x4f79af8335d41A98386f09d79D19Ab1552d0b925',
         poolId: 6,
@@ -45,7 +45,7 @@ export const poolData = [
         imageTokenB: 'https://usdog.fi/images/coins/dogswap.png',
     },
     {
-        title: '1000x / MINTME',
+        title: '1000x / CO2E',
         subTitle: 'Stake your 1000x / MINTM LP tokens and get $BONE rewards!',
         BONE_TOKEN_ADDRESS: '0x9D8dd79F2d4ba9E1C3820d7659A5F5D2FA1C22eF',
         MASTER_CHEF_ADDRESS: '0x4f79af8335d41A98386f09d79D19Ab1552d0b925',
@@ -75,8 +75,8 @@ export const poolData = [
         imageTokenB: 'https://usdog.fi/images/coins/bone.png',
     },
     {
-        title: '1000x / USDog',
-        subTitle: 'Stake your 1000x / USDog LP tokens and get $BONE rewards!',
+        title: '1000x / CO2eDEX',
+        subTitle: 'Stake your 1000x / CO2eDEX LP tokens and get $BONE rewards!',
         BONE_TOKEN_ADDRESS: '0x9D8dd79F2d4ba9E1C3820d7659A5F5D2FA1C22eF',
         MASTER_CHEF_ADDRESS: '0x4f79af8335d41A98386f09d79D19Ab1552d0b925',
         poolId: 9,
@@ -105,8 +105,8 @@ export const poolData = [
         imageTokenB: 'https://usdog.fi/images/coins/xatter.png',
     },
     {
-        title: 'MintMe / XatteR',
-        subTitle: 'Stake your MintMe / XatteR LP tokens and get $BONE rewards!',
+        title: 'CO2e / XatteR',
+        subTitle: 'Stake your CO2e / XatteR LP tokens and get $BONE rewards!',
         BONE_TOKEN_ADDRESS: '0x9D8dd79F2d4ba9E1C3820d7659A5F5D2FA1C22eF',
         MASTER_CHEF_ADDRESS: '0x4f79af8335d41A98386f09d79D19Ab1552d0b925',
         poolId: 10,

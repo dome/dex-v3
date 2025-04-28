@@ -67,7 +67,7 @@ const CookiePolicy = () => {
         </Title>
 
         <Typography variant="body1" paragraph>
-          This Cookie Policy explains how USDog uses cookies and similar technologies to recognize you when you visit our website. It explains what these technologies are, why we use them, and your rights to control their use.
+          This Cookie Policy explains how CO2eDEX uses cookies and similar technologies to recognize you when you visit our website. It explains what these technologies are, why we use them, and your rights to control their use.
         </Typography>
 
         <SectionHeading variant="h4">

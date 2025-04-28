@@ -29,7 +29,7 @@ const RecentTrades = ({ routerTransactions, isLoading, handleCopy }) => (
                 secondary={
                   <>
                     <Typography component="span" variant="body2" color="text.primary">
-                      Value: {ethers.utils.formatEther(tx.value)} MINTME
+                      Value: {ethers.utils.formatEther(tx.value)} CO2E
                     </Typography>
                     <br />
                     <Typography component="span" variant="body2" color="text.primary">

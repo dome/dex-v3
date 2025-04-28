@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { Box, Container, Grid, Typography, IconButton, Link, styled, useTheme } from '@mui/material';
 import { FaDiscord, FaTelegram, FaGithub, FaXTwitter } from 'react-icons/fa6';
 import { IoMdPaw } from 'react-icons/io';
+import { ImEarth } from 'react-icons/im';
+
 
 const StyledFooter = styled('footer')(({ theme }) => ({
   backgroundColor: '#f8f9fa',
@@ -114,8 +116,8 @@ const Footer = () => {
       case 'Resources':
         return [
           { text: 'Docs', href: 'https://docs.usdog.fi/', external: true },
-          { text: 'Whitepaper', href: 'https://raw.githubusercontent.com/DogToken/USDog-v2/main/Whitepaper.md', external: true },
-          { text: 'MintMe', href: 'https://mintme.com/token/USDog/', external: true },
+          { text: 'Whitepaper', href: 'https://raw.githubusercontent.com/DogToken/CO2eDEX-v2/main/Whitepaper.md', external: true },
+          { text: 'CO2e', href: 'https://mintme.com/token/CO2eDEX/', external: true },
           { text: 'FAQs', href: '/faq' },
         ];
       case 'Legal':
@@ -137,10 +139,10 @@ const Footer = () => {
           <Grid container spacing={4}>
             <Grid item xs={12} md={4}>
               <LogoTypography>
-                <IoMdPaw /> USDog
+                <ImEarth /> CO2eDEX
               </LogoTypography>
               <Typography variant="body2" sx={{ mb: 2, maxWidth: '300px' }}>
-                Revolutionizing DeFi on the MintMe SmartChain. Swap tokens, earn rewards, and shape the future of finance.
+                Revolutionizing DeFi on the CO2e SmartChain. Swap tokens, earn rewards, and shape the future of finance.
               </Typography>
               <Box>
                 {socialLinks.map((social, index) => (
@@ -183,7 +185,7 @@ const Footer = () => {
           </Grid>
           <Box sx={{ mt: 6, pt: 3, borderTop: '1px solid rgba(0, 0, 0, 0.1)', textAlign: 'center' }}>
             <Typography variant="body2" color="text.secondary">
-              © {year} USDog. All rights reserved.
+              © {year} CO2eDEX. All rights reserved.
             </Typography>
           </Box>
         </ContentWrapper>

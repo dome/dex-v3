@@ -37,7 +37,7 @@ const RecentTransactions = ({ transactions, isLoading, handleCopy }) => (
                       </IconButton>
                     </Box>
                   </TableCell>
-                  <TableCell>{ethers.utils.formatEther(tx.value)} MINTME</TableCell>
+                  <TableCell>{ethers.utils.formatEther(tx.value)} CO2E</TableCell>
                   <TableCell>
                     <Box display="flex" alignItems="center">
                       <Typography variant="body2">{tx.to ? `${tx.to.slice(0, 6)}...${tx.to.slice(-4)}` : 'Contract'}</Typography>

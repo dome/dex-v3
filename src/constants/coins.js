@@ -95,7 +95,7 @@ const MINTMECoins = [
   },
   {
     name: "MintMeBull",
-    abbr: "MintMe Bull",
+    abbr: "CO2e Bull",
     address: "0xd5c9BFF69210129764DEFEc86bD7e239dD2cE844",
     logoUrl: "https://usdog.fi/images/coins/mintmebull.png",
   },
@@ -264,5 +264,5 @@ const MINTMECoins = [
 ]
 
 const COINS = new Map();
-COINS.set(chains.ChainId.MINTME, MINTMECoins);
+COINS.set(chains.ChainId.CO2E, MINTMECoins);
 export default COINS

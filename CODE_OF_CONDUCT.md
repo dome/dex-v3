@@ -1,4 +1,4 @@
-# Code of Conduct - USDog
+# Code of Conduct - CO2eDEX
 
 ## Our Pledge
 
