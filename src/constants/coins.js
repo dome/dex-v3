@@ -4,21 +4,21 @@ import * as chains from './chains';
 
 const MINTMECoins = [
   {
-    name: "MintMe",
-    abbr: "MINTME",
+    name: "CO2e",
+    abbr: "CO2e",
     address: "", 
     logoUrl: "https://usdog.fi/images/coins/mintme.png",
   },
   {
-    name: "USDog",
-    abbr: "USDog",
-    address: "0xFD8Ef75c1cB00A594D02df48ADdc27414Bd07F8a",
+    name: "USDT",
+    abbr: "USDT",
+    address: "0x38f4fd0E7F9d7e5f58Df610e5E739aFE544E9170",
     logoUrl: "https://usdog.fi/images/coins/dogswap.png",
   },
   {
     name: "Bone",
     abbr: "BONE",
-    address: "0x999999999F7790f330Faa37457741d3e26A74659",
+    address: "0x3610587e99D40deDf91403465A834275f3B9cA98",
     logoUrl: "https://usdog.fi/images/coins/bone.png",
   },
   {
