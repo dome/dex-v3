@@ -115,7 +115,7 @@ const PortfolioTracker = () => {
           </Grid>
           <Grid item xs={12} sm={4}>
             <Typography variant="h6">Total Pending Rewards</Typography>
-            <Typography variant="body1">{totalPendingRewards} $BONE</Typography>
+            <Typography variant="body1">{totalPendingRewards} $CO2DEX</Typography>
           </Grid>
         </Grid>
       </SummaryBox>
@@ -126,7 +126,7 @@ const PortfolioTracker = () => {
               <TableCell>Pool</TableCell>
               <TableCell align="right">Wallet Balance (LP)</TableCell>
               <TableCell align="right">Staked Tokens (LP)</TableCell>
-              <TableCell align="right">Pending Rewards ($BONE)</TableCell>
+              <TableCell align="right">Pending Rewards ($CO2DEX)</TableCell>
             </TableRow>
           </TableHead>
           <TableBody>

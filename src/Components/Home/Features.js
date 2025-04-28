@@ -128,7 +128,7 @@ export default function Features() {
           </Typography>
           <Typography variant="body1" sx={{ color: 'text.secondary', mb: { xs: 2, sm: 4 } }}>
             We are continually striving to improve and make the CO2e community a safe space to
-            trade and explore innovative DeFi solutions, including the BONE token. Our focus is on
+            trade and explore innovative DeFi solutions, including the CO2DEX token. Our focus is on
             building a user-friendly environment, fostering community engagement, and ensuring
             transparency in all transactions.
           </Typography>

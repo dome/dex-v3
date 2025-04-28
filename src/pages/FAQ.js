@@ -71,7 +71,7 @@ const FAQPage = () => {
           </AccordionSummary>
           <AccordionDetails>
             <Typography variant="body2">
-            CO2eDEX is a decentralized finance (DeFi) platform where users can swap tokens, provide liquidity, and earn rewards. It operates on the CO2e Network and uses the $BONE token for various functions, including staking and governance.
+            CO2eDEX is a decentralized finance (DeFi) platform where users can swap tokens, provide liquidity, and earn rewards. It operates on the CO2e Network and uses the $CO2DEX token for various functions, including staking and governance.
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -108,31 +108,31 @@ const FAQPage = () => {
 
         <Accordion expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
           <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="panel5-content" id="panel5-header">
-            <Typography variant="subtitle1">5. What is $BONE and how is it used?</Typography>
+            <Typography variant="subtitle1">5. What is $CO2DEX and how is it used?</Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography variant="body2">
-            $BONE is the native token of CO2eDEX. It is used for staking, earning rewards, participating in governance, and incentivizing liquidity provision on the platform.            </Typography>
+            $CO2DEX is the native token of CO2eDEX. It is used for staking, earning rewards, participating in governance, and incentivizing liquidity provision on the platform.            </Typography>
           </AccordionDetails>
         </Accordion>
 
         <Accordion expanded={expanded === 'panel6'} onChange={handleChange('panel6')}>
           <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="panel6-content" id="panel6-header">
-            <Typography variant="subtitle1">6. How can I stake $BONE tokens?</Typography>
+            <Typography variant="subtitle1">6. How can I stake $CO2DEX tokens?</Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography variant="body2">
-            To stake $BONE tokens, navigate to the "Staking" section on CO2eDEX, choose the staking pool, enter the amount of $BONE you want to stake, and confirm your action. Staking earns you rewards and gives you voting power.            </Typography>
+            To stake $CO2DEX tokens, navigate to the "Staking" section on CO2eDEX, choose the staking pool, enter the amount of $CO2DEX you want to stake, and confirm your action. Staking earns you rewards and gives you voting power.            </Typography>
           </AccordionDetails>
         </Accordion>
 
         <Accordion expanded={expanded === 'panel7'} onChange={handleChange('panel7')}>
           <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls="panel7-content" id="panel7-header">
-            <Typography variant="subtitle1">7. What are the benefits of staking $BONE tokens?</Typography>
+            <Typography variant="subtitle1">7. What are the benefits of staking $CO2DEX tokens?</Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography variant="body2">
-            Staking $BONE tokens allows you to earn rewards, participate in governance decisions, and support the CO2eDEX ecosystem. Stakers receive additional $BONE tokens as rewards.            </Typography>
+            Staking $CO2DEX tokens allows you to earn rewards, participate in governance decisions, and support the CO2eDEX ecosystem. Stakers receive additional $CO2DEX tokens as rewards.            </Typography>
           </AccordionDetails>
         </Accordion>
 
@@ -152,7 +152,7 @@ const FAQPage = () => {
           </AccordionSummary>
           <AccordionDetails>
             <Typography variant="body2">
-            The governance system allows $BONE token holders to vote on proposals and decisions affecting the platform’s development and operations. This system ensures that the community has a say in the future of CO2eDEX.            </Typography>
+            The governance system allows $CO2DEX token holders to vote on proposals and decisions affecting the platform’s development and operations. This system ensures that the community has a say in the future of CO2eDEX.            </Typography>
           </AccordionDetails>
         </Accordion>
 

@@ -8,7 +8,7 @@ const useContract = () => {
   const [pools, setPools] = useState([]);
   const [bonePerBlock, setBonePerBlock] = useState('');
   const [devAddress, setDevAddress] = useState('');
-  const [pendingBone, setPendingBone] = useState(''); // State for pending BONE
+  const [pendingBone, setPendingBone] = useState(''); // State for pending CO2DEX
   const [poolId, setPoolId] = useState(0); // Set your default pool ID
   const [amount, setAmount] = useState(''); // For deposits and withdrawals
   const [newPoolData, setNewPoolData] = useState({ allocPoint: '', lpToken: '', withUpdate: false });
@@ -88,7 +88,7 @@ const useContract = () => {
         const pending = await contract.pendingBone(poolId, account);
         setPendingBone(ethers.utils.formatEther(pending));
       } catch (error) {
-        console.error('Error fetching pending BONE:', error);
+        console.error('Error fetching pending CO2DEX:', error);
       }
     }
   };

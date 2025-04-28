@@ -115,7 +115,7 @@ const Footer = () => {
         ];
       case 'Resources':
         return [
-          { text: 'Docs', href: 'https://docs.usdog.fi/', external: true },
+          { text: 'Docs', href: 'https://docs.dex.co2e.cc/', external: true },
           { text: 'Whitepaper', href: 'https://raw.githubusercontent.com/DogToken/CO2eDEX-v2/main/Whitepaper.md', external: true },
           { text: 'CO2e', href: 'https://mintme.com/token/CO2eDEX/', external: true },
           { text: 'FAQs', href: '/faq' },
@@ -142,7 +142,7 @@ const Footer = () => {
                 <ImEarth /> CO2eDEX
               </LogoTypography>
               <Typography variant="body2" sx={{ mb: 2, maxWidth: '300px' }}>
-                Revolutionizing DeFi on the CO2e SmartChain. Swap tokens, earn rewards, and shape the future of finance.
+                Revolutionizing DeFi on the CO2e Green Chain. Swap tokens, earn rewards, and shape the future of Carbon Credit.
               </Typography>
               <Box>
                 {socialLinks.map((social, index) => (

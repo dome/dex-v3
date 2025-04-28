@@ -16,7 +16,7 @@ const DepositWithdrawTab = ({ contract, account, pools }) => {
         const pending = await contract.pendingBone(poolId, account);
         setPendingBone(ethers.utils.formatEther(pending));
       } catch (error) {
-        console.error('Error fetching pending BONE:', error);
+        console.error('Error fetching pending CO2DEX:', error);
       }
     }
   };
@@ -93,7 +93,7 @@ const DepositWithdrawTab = ({ contract, account, pools }) => {
       </Grid>
       <Grid item xs={12}>
         <Typography variant="body1">
-          Pending BONE: {pendingBone}
+          Pending CO2DEX: {pendingBone}
         </Typography>
       </Grid>
     </>

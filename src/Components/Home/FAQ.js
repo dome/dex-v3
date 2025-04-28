@@ -128,7 +128,7 @@ export default function FAQ() {
               gutterBottom
               sx={{ maxWidth: { sm: '100%', md: '70%' } }}
             >
-              CO2eDEX supports a wide variety of cryptocurrencies, including popular tokens and our native BONE token. You can view the full list of supported assets directly on our platform.
+              CO2eDEX supports a wide variety of cryptocurrencies, including popular tokens and our native CO2DEX token. You can view the full list of supported assets directly on our platform.
             </Typography>
           </AccordionDetails>
         </Accordion>

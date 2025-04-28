@@ -4,7 +4,7 @@
 
 #### **Abstract**
 
-CO2eDEX is a decentralized exchange (DEX) protocol built on the CO2e Smartchain, designed to enhance the token swapping experience through community involvement, low fees, and advanced security measures. The CO2eDEX ecosystem features $BONE as its governance and utility token, while $DOGSWAP serves as the native token of the platform, underpinning various operations within the CO2eDEX DEX. The project focuses on community-driven liquidity pools, governance, and yield farming opportunities, leveraging the capabilities of the CO2e Smartchain to provide a seamless, user-friendly interface for decentralized trading.
+CO2eDEX is a decentralized exchange (DEX) protocol built on the CO2e Smartchain, designed to enhance the token swapping experience through community involvement, low fees, and advanced security measures. The CO2eDEX ecosystem features $CO2DEX as its governance and utility token, while $DOGSWAP serves as the native token of the platform, underpinning various operations within the CO2eDEX DEX. The project focuses on community-driven liquidity pools, governance, and yield farming opportunities, leveraging the capabilities of the CO2e Smartchain to provide a seamless, user-friendly interface for decentralized trading.
 
 ---
 
@@ -18,7 +18,7 @@ CO2e Smartchain, a blockchain designed for token creation and trading, provides 
 
 ##### **1.2 Vision**
 
-CO2eDEX aims to become the premier DEX on CO2e Smartchain, offering a platform where users can seamlessly trade dog-themed tokens and other cryptocurrencies. Our vision is to empower the community by providing robust governance through $BONE, our governance and utility token, while using $DOGSWAP as the native token to fuel platform operations. CO2eDEX seeks to create a secure, accessible, and community-driven ecosystem that enhances the DeFi experience.
+CO2eDEX aims to become the premier DEX on CO2e Smartchain, offering a platform where users can seamlessly trade dog-themed tokens and other cryptocurrencies. Our vision is to empower the community by providing robust governance through $CO2DEX, our governance and utility token, while using $DOGSWAP as the native token to fuel platform operations. CO2eDEX seeks to create a secure, accessible, and community-driven ecosystem that enhances the DeFi experience.
 
 ---
 
@@ -30,13 +30,13 @@ CO2eDEX aims to become the premier DEX on CO2e Smartchain, offering a platform w
 CO2eDEX enables users to trade a variety of tokens, particularly those within the dog-token community, without relying on centralized exchanges. Utilizing the CO2e Smartchain, CO2eDEX ensures fast and cost-effective transactions while maintaining the security and transparency of decentralized trading.
 
 **2.1.2 Community-Driven Liquidity Pools**
-Liquidity provision is crucial for a successful DEX, and CO2eDEX incentivizes this through community-driven liquidity pools. Liquidity providers (LPs) can stake their tokens in these pools to earn rewards in $DOGSWAP, the platform’s native token. Special emphasis is placed on pools involving $BONE and popular dog-themed tokens, fostering a strong, engaged community.
+Liquidity provision is crucial for a successful DEX, and CO2eDEX incentivizes this through community-driven liquidity pools. Liquidity providers (LPs) can stake their tokens in these pools to earn rewards in $DOGSWAP, the platform’s native token. Special emphasis is placed on pools involving $CO2DEX and popular dog-themed tokens, fostering a strong, engaged community.
 
 **2.1.3 Yield Farming**
-CO2eDEX offers yield farming opportunities that allow users to earn additional rewards by staking $BONE or providing liquidity in selected pools. These yield farming programs are periodically adjusted based on community input and governance decisions, ensuring they remain aligned with user interests and market dynamics.
+CO2eDEX offers yield farming opportunities that allow users to earn additional rewards by staking $CO2DEX or providing liquidity in selected pools. These yield farming programs are periodically adjusted based on community input and governance decisions, ensuring they remain aligned with user interests and market dynamics.
 
 **2.1.4 Governance**
-Governance on CO2eDEX is powered by $BONE, the ecosystem’s governance and utility token. $BONE holders can propose and vote on changes to the protocol, such as introducing new features, adjusting fee structures, and determining liquidity pool incentives. This decentralized governance model ensures that CO2eDEX evolves in line with the needs of its users.
+Governance on CO2eDEX is powered by $CO2DEX, the ecosystem’s governance and utility token. $CO2DEX holders can propose and vote on changes to the protocol, such as introducing new features, adjusting fee structures, and determining liquidity pool incentives. This decentralized governance model ensures that CO2eDEX evolves in line with the needs of its users.
 
 **2.1.5 Security and Audits**
 Security is paramount at CO2eDEX. All smart contracts are rigorously audited by top-tier blockchain security firms, and the platform employs additional security measures such as multi-signature wallets and decentralized insurance options to safeguard users' assets.
@@ -58,16 +58,16 @@ CO2eDEX employs an automated market maker (AMM) model, similar to other leading 
 
 #### **4. Tokenomics**
 
-##### **4.1 $BONE Token**
-$BONE is the governance and utility token of the CO2eDEX platform. It is central to governance, staking, and participating in various DeFi activities within the ecosystem.
+##### **4.1 $CO2DEX Token**
+$CO2DEX is the governance and utility token of the CO2eDEX platform. It is central to governance, staking, and participating in various DeFi activities within the ecosystem.
 
 **4.1.1 Token Distribution**
-- **Governance and Utility**: $BONE is primarily used for governance voting and staking.
-- **Liquidity Incentives**: A significant portion of $BONE is allocated for rewarding liquidity providers and yield farmers.
+- **Governance and Utility**: $CO2DEX is primarily used for governance voting and staking.
+- **Liquidity Incentives**: A significant portion of $CO2DEX is allocated for rewarding liquidity providers and yield farmers.
 - **Development and Upgrades**: A reserve is maintained to fund future development and upgrades of the platform.
 
 **4.1.2 Governance**
-$BONE holders have the power to propose and vote on critical decisions affecting the CO2eDEX ecosystem, ensuring that the platform remains responsive to the needs and preferences of its community.
+$CO2DEX holders have the power to propose and vote on critical decisions affecting the CO2eDEX ecosystem, ensuring that the platform remains responsive to the needs and preferences of its community.
 
 ##### **4.2 $DOGSWAP Token**
 $DOGSWAP is the native token of the CO2eDEX platform, used to incentivize liquidity provision and reward participation in the ecosystem.
@@ -87,7 +87,7 @@ $DOGSWAP is used within the platform for transaction fees, staking rewards, and 
 ##### **5.1 Phase 1: Launch**
 - **Platform Development**: Finalize smart contract development and conduct thorough audits.
 - **Token Generation Event (TGE)**: Launch $DOGSWAP and distribute it to early supporters and liquidity providers.
-- **Initial Liquidity Pools**: Deploy initial liquidity pools with a focus on $BONE and popular dog-themed tokens.
+- **Initial Liquidity Pools**: Deploy initial liquidity pools with a focus on $CO2DEX and popular dog-themed tokens.
 
 ##### **5.2 Phase 2: Ecosystem Expansion**
 - **Community-Driven Features**: Introduce new features and enhancements based on community governance proposals.
@@ -103,7 +103,7 @@ $DOGSWAP is used within the platform for transaction fees, staking rewards, and 
 
 #### **6. Conclusion**
 
-CO2eDEX is poised to become the leading decentralized exchange on the CO2e Smartchain, offering a unique combination of community-driven governance, robust security, and innovative DeFi features. With $BONE as the governance and utility token, and $DOGSWAP as the native token driving platform operations, CO2eDEX provides a comprehensive and engaging ecosystem for decentralized trading. We invite the community to join us in shaping the future of DeFi on CO2e Smartchain.
+CO2eDEX is poised to become the leading decentralized exchange on the CO2e Smartchain, offering a unique combination of community-driven governance, robust security, and innovative DeFi features. With $CO2DEX as the governance and utility token, and $DOGSWAP as the native token driving platform operations, CO2eDEX provides a comprehensive and engaging ecosystem for decentralized trading. We invite the community to join us in shaping the future of DeFi on CO2e Smartchain.
 
 ---
 

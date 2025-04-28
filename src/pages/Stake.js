@@ -169,7 +169,7 @@ export default function Stake() {
   };
 
   const POOLS = [
-    { id: 1, name: "$BONE-WMINT", address: "0xA906aa69b917563D07FedFDd69cc195D1AeE00b9" },
+    { id: 1, name: "$CO2DEX-WMINT", address: "0xA906aa69b917563D07FedFDd69cc195D1AeE00b9" },
   ];
 
   const fetchTVLData = async () => {
@@ -180,8 +180,8 @@ export default function Stake() {
       const provider = getProvider();
       const signer = getSigner(provider);
   
-      // Calculate price of $BONE in CO2e
-      const bonePool = POOLS.find(pool => pool.name === "$BONE-WMINT");
+      // Calculate price of $CO2DEX in CO2e
+      const bonePool = POOLS.find(pool => pool.name === "$CO2DEX-WMINT");
       const boneReserves = await new Contract(bonePool.address, pairABI, signer).getReserves();
       const boneReserve0 = boneReserves[0] / 10 ** BONE_TOKEN_DECIMALS;
       const boneReserve1 = boneReserves[1] / 10 ** 18;
@@ -203,7 +203,7 @@ export default function Stake() {
         let token1ValueInUSD;
         if (token0 === "WMINT") {
           token0ValueInUSD = reserve0 * mintmePriceData;
-        } else if (token0 === "$BONE") {
+        } else if (token0 === "$CO2DEX") {
           token0ValueInUSD = reserve0 * bonePriceInUSDTemp;
         } else {
           token0ValueInUSD = reserve0;
@@ -211,7 +211,7 @@ export default function Stake() {
   
         if (token1 === "WMINT") {
           token1ValueInUSD = reserve1 * mintmePriceData;
-        } else if (token1 === "$BONE") {
+        } else if (token1 === "$CO2DEX") {
           token1ValueInUSD = reserve1 * bonePriceInUSDTemp;
         } else {
           token1ValueInUSD = reserve1;
@@ -306,7 +306,7 @@ export default function Stake() {
       setMessage({ text: 'Tokens staked successfully!', severity: 'success' });
       setShowSnackbar(true);
       fetchBalances();
-      trackEvent('Staking', 'Stake Tokens', `${amountToStake.toString()} BONE`); // Track stake event
+      trackEvent('Staking', 'Stake Tokens', `${amountToStake.toString()} CO2DEX`); // Track stake event
     } catch (error) {
       console.error('Error staking tokens:', error);
       setMessage({ text: 'Failed to stake tokens. Please try again later.', severity: 'error' });
@@ -336,7 +336,7 @@ export default function Stake() {
       setMessage({ text: 'Tokens withdrawn successfully!', severity: 'success' });
       setShowSnackbar(true);
       fetchBalances();
-      trackEvent('Staking', 'Withdraw Tokens', `${amountToWithdraw.toString()} BONE`); // Track withdraw event
+      trackEvent('Staking', 'Withdraw Tokens', `${amountToWithdraw.toString()} CO2DEX`); // Track withdraw event
     } catch (error) {
       console.error('Error withdrawing tokens:', error);
       setMessage({ text: 'Failed to withdraw tokens. Please try again later.', severity: 'error' });
@@ -404,51 +404,51 @@ export default function Stake() {
 
   return (
     <RootContainer maxWidth="lg">
-      <TitleTypography variant="h3">$BONE Staking Dashboard</TitleTypography>
+      <TitleTypography variant="h3">$CO2DEX Staking Dashboard</TitleTypography>
       <SubTitleTypography variant="body1">
-        Stake your $BONE tokens to earn rewards and support the CO2eDEX ecosystem.
+        Stake your $CO2DEX tokens to earn rewards and support the CO2eDEX ecosystem.
       </SubTitleTypography>
       <Grid container spacing={3}>
         <Grid item xs={12} sm={6} md={3}>
-          <Tooltip title="Total supply of $BONE tokens in circulation" arrow placement="top">
+          <Tooltip title="Total supply of $CO2DEX tokens in circulation" arrow placement="top">
             <StyledPaper elevation={3}>
               <StyledAvatar>
                 <FontAwesomeIcon icon={faCoins} />
               </StyledAvatar>
-              <Typography variant="h6">Total $BONE</Typography>
+              <Typography variant="h6">Total $CO2DEX</Typography>
               <BalanceTypography variant="h5">{totalTokens}</BalanceTypography>
             </StyledPaper>
           </Tooltip>
         </Grid>
         <Grid item xs={12} sm={6} md={3}>
-          <Tooltip title="Your $BONE balance in wallet" arrow placement="top">
+          <Tooltip title="Your $CO2DEX balance in wallet" arrow placement="top">
             <StyledPaper elevation={3}>
               <StyledAvatar>
                 <FontAwesomeIcon icon={faWallet} />
               </StyledAvatar>
-              <Typography variant="h6">Your $BONE</Typography>
+              <Typography variant="h6">Your $CO2DEX</Typography>
               <BalanceTypography variant="h5">{walletTokens}</BalanceTypography>
             </StyledPaper>
           </Tooltip>
         </Grid>
         <Grid item xs={12} sm={6} md={3}>
-          <Tooltip title="Amount of $BONE you have staked" arrow placement="top">
+          <Tooltip title="Amount of $CO2DEX you have staked" arrow placement="top">
             <StyledPaper elevation={3}>
               <StyledAvatar>
                 <FontAwesomeIcon icon={faHandHoldingUsd} />
               </StyledAvatar>
-              <Typography variant="h6">Staked $BONE</Typography>
+              <Typography variant="h6">Staked $CO2DEX</Typography>
               <BalanceTypography variant="h5">{stakedAmount}</BalanceTypography>
             </StyledPaper>
           </Tooltip>
         </Grid>
         <Grid item xs={12} sm={6} md={3}>
-          <Tooltip title="Unclaimed $BONE rewards" arrow placement="top">
+          <Tooltip title="Unclaimed $CO2DEX rewards" arrow placement="top">
             <StyledPaper elevation={3}>
               <StyledAvatar>
                 <FontAwesomeIcon icon={faClock} />
               </StyledAvatar>
-              <Typography variant="h6">Pending $BONE</Typography>
+              <Typography variant="h6">Pending $CO2DEX</Typography>
               <BalanceTypography variant="h5">{pendingBone}</BalanceTypography>
             </StyledPaper>
           </Tooltip>
@@ -459,7 +459,7 @@ export default function Stake() {
         <StyledPaper elevation={3}>
           <Grid container spacing={3} alignItems="center">
             <Grid item xs={12} md={6}>
-              <Typography variant="h6" gutterBottom>Stake or Withdraw $BONE</Typography>
+              <Typography variant="h6" gutterBottom>Stake or Withdraw $CO2DEX</Typography>
               <StyledTextField
                 label="Amount"
                 variant="outlined"
@@ -571,9 +571,9 @@ export default function Stake() {
             </Tooltip>
           </Grid>
           <Grid item xs={12} sm={6}>
-        <Tooltip title="Current price of BONE in CO2e" arrow placement="top">
+        <Tooltip title="Current price of CO2DEX in CO2e" arrow placement="top">
           <Box>
-            <Typography variant="subtitle1">BONE Price (CO2e)</Typography>
+            <Typography variant="subtitle1">CO2DEX Price (CO2e)</Typography>
             <BalanceTypography variant="h4">
               {bonePriceInMintMe || 'N/A'} CO2E
             </BalanceTypography>
@@ -581,9 +581,9 @@ export default function Stake() {
         </Tooltip>
       </Grid>
       <Grid item xs={12} sm={6}>
-        <Tooltip title="Current price of BONE in USD" arrow placement="top">
+        <Tooltip title="Current price of CO2DEX in USD" arrow placement="top">
           <Box>
-            <Typography variant="subtitle1">BONE Price (USD)</Typography>
+            <Typography variant="subtitle1">CO2DEX Price (USD)</Typography>
             <BalanceTypography variant="h4">
               ${bonePriceInUSD || 'N/A'}
             </BalanceTypography>

@@ -234,7 +234,7 @@ const Pools = () => {
                   </StyledTableCell>
                   <StyledTableCell align="right">{pool.walletBalance}</StyledTableCell>
                   <StyledTableCell align="right">{pool.stakedLpTokens}</StyledTableCell>
-                  <StyledTableCell align="right">{pool.pendingBone} $BONE</StyledTableCell>
+                  <StyledTableCell align="right">{pool.pendingBone} $CO2DEX</StyledTableCell>
                   <StyledTableCell align="center">
                     <StakingPool
                       pool={pool}

@@ -18,8 +18,8 @@ Key features:
 
 - Trade tokens in a decentralized manner without permission
 - Uses an AMM model instead of order books
-- Users can provide liquidity to earn fees and $BONE governance tokens
-- $BONE tokens are earned through staking and pooling
+- Users can provide liquidity to earn fees and $CO2DEX governance tokens
+- $CO2DEX tokens are earned through staking and pooling
 - Aims to be a fast, secure, easy way to trade tokens in a decentralized manner
 
 ## Roadmap
@@ -43,7 +43,7 @@ Key features:
 ### Phase 3: Governance Integration
 
 - [ ] Integrate decentralized governance mechanism
-- [ ] Allow $BONE holders to vote on protocol changes
+- [ ] Allow $CO2DEX holders to vote on protocol changes
 - [ ] Implement on-chain voting for new feature proposals
 - [ ] Build governance dashboard
 - [ ] Establish process for proposing upgrades
@@ -78,7 +78,7 @@ Once you have CO2E in your wallet, you're ready to start using CO2eDEX!
 
 ### 4. Connect Your Wallet to CO2eDEX
 
-Go to [dogswap.com](https://usdog.fi) and click "Connect Wallet" in the top right. This will bring up your MetaMask wallet. Confirm the connection and you're all set!
+Go to [dogswap.com](https://dex.co2e.cc) and click "Connect Wallet" in the top right. This will bring up your MetaMask wallet. Confirm the connection and you're all set!
 
 Now you can start swapping tokens and providing liquidity on CO2eDEX. Let us know if you have any other questions!
 
@@ -130,6 +130,6 @@ We're excited to collaborate with the community to improve CO2eDEX!
 [Router: 0xa6c72da53025c5291d326fadc5a1277aa21fef2c](https://www.mintme.com/explorer/addr/0xa6c72da53025c5291d326fadc5a1277aa21fef2c "Router")
 [Factory: 0x86818c666b90f6f4706560afc72c2c2fa7b9c74a](https://www.mintme.com/explorer/addr/0x86818c666b90f6f4706560afc72c2c2fa7b9c74a "Factory")
 [WETH: 0x067fa59cd5d5cd62be16c8d1df0d80e35a1d88dc](https://www.mintme.com/explorer/addr/0x067fa59cd5d5cd62be16c8d1df0d80e35a1d88dc "WETH")
-[$BONE: 0x9D8dd79F2d4ba9E1C3820d7659A5F5D2FA1C22eF](https://www.mintme.com/explorer/addr/0x9D8dd79F2d4ba9E1C3820d7659A5F5D2FA1C22eF "BONE")
+[$CO2DEX: 0x9D8dd79F2d4ba9E1C3820d7659A5F5D2FA1C22eF](https://www.mintme.com/explorer/addr/0x9D8dd79F2d4ba9E1C3820d7659A5F5D2FA1C22eF "CO2DEX")
 [CO2eDEX: 0x1628160C66e0330090248a163A34Ba5B5A82D4f7](https://www.mintme.com/explorer/addr/0x1628160C66e0330090248a163A34Ba5B5A82D4f7
 ```

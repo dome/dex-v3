@@ -145,7 +145,7 @@ const AllPoolStats = () => {
     switch (symbol) {
       case 'WMINT':
         return numAmount * mintMePriceInUsd;
-      case '$BONE':
+      case '$CO2DEX':
         return numAmount * bonePriceInUSD;
       case 'USDC':
         return numAmount;

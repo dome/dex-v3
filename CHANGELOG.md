@@ -122,8 +122,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Public Release
 
-- The main website "https://usdog.fi" will be moved to "https://old.usdog.fi"
-- The beta will be moved from "https://beta.usdog.fi" to "https://usdog.fi" acting as the new frontpage.
+- The main website "https://dex.co2e.cc" will be moved to "https://old.dex.co2e.cc"
+- The beta will be moved from "https://beta.dex.co2e.cc" to "https://dex.co2e.cc" acting as the new frontpage.
 
 ### New Features
 
@@ -217,7 +217,7 @@ dead links updated to work, changed twitter to X and multiple UI edits
 ### New Files
 
 - Added images folder for UI
-- Added [Docs](https://docs.usdog.fi)
+- Added [Docs](https://docs.dex.co2e.cc)
 
 ## [2.1.2] - 2024-08-30
 

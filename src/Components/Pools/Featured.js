@@ -162,7 +162,7 @@ const Featured = () => {
         </DetailItem>
         <DetailItem>
           <DetailsTypography>Pending Rewards:</DetailsTypography>
-          <DetailsTypography>{poolDataItem.pendingBone} $BONE</DetailsTypography>
+          <DetailsTypography>{poolDataItem.pendingBone} $CO2DEX</DetailsTypography>
         </DetailItem>
       </DetailContainer>
       <Box mt={2}>

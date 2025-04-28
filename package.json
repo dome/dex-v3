@@ -2,7 +2,7 @@
   "name": "dogswap",
   "version": "2.2.10",
   "private": false,
-  "homepage": "https://usdog.fi/",
+  "homepage": "https://dex.co2e.cc/",
   "dependencies": {
     "@babel/core": "^7.24.8",
     "@emotion/react": "^11.11.4",

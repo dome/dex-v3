@@ -1,8 +1,6 @@
 export const tokenContracts = [
-    { address: '0xb568d6F2aedEBFE388740806C0265bE3b1CA174a', symbol: 'CO2eDEX', decimals: 18, image: '/images/coins/dogswap.png', homepage: 'https://usdog.fi', info: 'CO2eDEX is a decentralized exchange for tokens created on the CO2e smartchain.', url: 'https://mintme.com/token/CO2eDEX' },
-    { address: '0x7B733A15e71C1E6f04f165956cdF88a2a644A84c', symbol: 'BONE', decimals: 18, image: '/images/coins/bone.png', homepage: 'https://usdog.fi', info: 'BONE is the governance token for the CO2eDEX ecosystem. Stake it, Earn it', url: 'https://mintme.com/token/BONE' },
-    { address: '0x1275D096B9DBf2347bD2a131Fb6BDaB0B4882487', symbol: '1000x', decimals: 12, image: '/images/coins/1000x.png', homepage: 'https://1000x.ch', info: '1000x is one of the first tokens on the CO2e smartchain and one of the leading projects backing CO2eDEX.', url: 'https://mintme.com/token/1000x' },
-    { address: '0x0f5D1ef48f12b6f691401bfe88c2037c690a6afe', symbol: 'XatteR', decimals: 12, image: '/images/coins/xatter.png', homepage: 'https://AncientBeast.com', info: 'Ancient Beast is a turn based strategy game, eSport played in 1vs1 or 2vs2 matches', url: 'https://mintme.com/token/XatteR' }
+    { address: '0x38f4fd0E7F9d7e5f58Df610e5E739aFE544E9170', symbol: 'USDT', decimals: 18, image: '/images/coins/usdt.png', homepage: 'https://tether.to', info: 'Tether (USDT) aim is to provide a less volatile digital currency by pegging its value to the US dollar', url: 'https://exp.co2e.cc/address/0x38f4fd0E7F9d7e5f58Df610e5E739aFE544E9170' },
+    { address: '0x0d8A4c62557db4eba03d5b1CA1528738a79a0369', symbol: 'TVREF', decimals: 18, image: '/images/coins/tvref.png', homepage: 'https://ghgreduction.tgo.or.th/th/tver-method/t-ver-classify-methodology/t-ver-methodology1.html', info: 'T-VER Carbon Credit Project: Renewable Energy/Fossil Fuel Substitution', url: 'https://exp.co2e.cc/address/0x0d8A4c62557db4eba03d5b1CA1528738a79a0369' }
   ];
   
-  export const routerAddress = '0x4c0299eB972edc601d086BdF1E7B16643E20A05a';
+  export const routerAddress = '0xd49B7CB086a17E46AA420cf52eCC8C1061fa4dD4';

@@ -24,7 +24,7 @@ const Highlights = () => {
       icon: <MonetizationOnRoundedIcon />,
       title: 'Earn with Liquidity',
       description:
-        'Provide liquidity and earn rewards in BONE while helping build a more liquid and accessible DeFi ecosystem.',
+        'Provide liquidity and earn rewards in CO2DEX while helping build a more liquid and accessible DeFi ecosystem.',
     },
     {
       icon: <LockRoundedIcon />,
@@ -36,7 +36,7 @@ const Highlights = () => {
       icon: <TrendingUpRoundedIcon />,
       title: 'Stake and Grow',
       description:
-        'Maximize your earnings by staking BONE and participating in governance to shape the future of CO2eDEX.',
+        'Maximize your earnings by staking CO2DEX and participating in governance to shape the future of CO2eDEX.',
     },
     {
       icon: <SupportRoundedIcon />,

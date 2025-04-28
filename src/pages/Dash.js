@@ -219,12 +219,12 @@ const ProfileDashboard = () => {
   
         <Grid item xs={12} md={6}>
           <InfoCard
-            title="BONE Token Voting Power"
+            title="CO2e Token Voting Power"
             icon={<VoteIcon />}
             isLoading={loading.votingPower}
             content={
               <>
-                <Typography variant="h6">{votingPower.amount} BONE</Typography>
+                <Typography variant="h6">{votingPower.amount} CO2E</Typography>
                 <Typography variant="body2">
                   {votingPower.percentage}% of total supply
                 </Typography>
