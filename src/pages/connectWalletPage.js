@@ -10,10 +10,10 @@ const ConnectWalletPage = () => {
   const [promptUser, setPromptUser] = useState(true); // New state to prompt user
 
   // Replace with your desired network details
-  const desiredNetworkId = '700011'; 
+  const desiredNetworkId = '8899'; 
   const desiredNetworkName = 'MintMe SmartChain';
-  const rpcUrl = 'https://sichang-rpc.thaichain.org';
-  const chainIdHex = '0xAAE6B';
+  const rpcUrl = 'https://rpc-l1.jibchain.net';
+  const chainIdHex = '0x22C3';
 
   useEffect(() => {
     const checkNetwork = async () => {
