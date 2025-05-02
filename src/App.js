@@ -27,7 +27,7 @@ import { createTheme, ThemeProvider } from "@mui/material";
 
 import { Context } from "./Context.js";
 import axios from 'axios';
-import { getBonePriceInUSD, getBonePriceInMintMe } from './utils/priceUtils';
+import { getBonePriceInUSD, getBonePriceInMintMe, getMintMePriceInUSD } from './utils/priceUtils';
 
 const theme = createTheme({
   palette: {
@@ -53,18 +53,14 @@ const App = () => {
     const getPrices = async function() {
       setMintMePriceInUsd(0);
       setBonePriceInUSD(0);
-
-      try {
-        // Fetch CO2e price
-        let response = await axios.get(`https://api.coingecko.com/api/v3/simple/price?ids=webchain&vs_currencies=usd`);
-        if(response.status === 200) {
-          setMintMePriceInUsd(response.data['webchain']?.usd);
-          setBonePriceInMintMe(await getBonePriceInMintMe());
-          setBonePriceInUSD(await getBonePriceInUSD(response.data['webchain']?.usd));
-        }
-      } catch (error) {
-        console.error("Can't fetch price");
-      }
+      console.log(await getBonePriceInMintMe());
+      console.log(await getMintMePriceInUSD());
+      console.log(await getBonePriceInUSD());
+      // console.log(mintMePriceInUsd);
+      setBonePriceInMintMe(await getBonePriceInMintMe());
+      setMintMePriceInUsd(await getMintMePriceInUSD());  
+      setBonePriceInUSD(await getBonePriceInUSD());    
+      // console.log(bonePriceInUSD);
     }
 
     getPrices();

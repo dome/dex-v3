@@ -73,7 +73,7 @@ const StatValue = styled(Typography)(({ theme }) => ({
 
 // Token decimals mapping
 const TOKEN_DECIMALS = {
-  'USDC': 6,
+  'USDT': 18,
   '$CO2DEX': 18,
   'WCO2E': 18,
   'DOGSP': 12,
@@ -95,28 +95,7 @@ const TOKEN_DECIMALS = {
 
 // Pools configuration
 const POOLS = [
-  { id: 0, name: "WCO2E-$CO2DEX", address: "0xf77597F4165DC70C74f93F04EB98c62eE222fadA" },
-  { id: 1, name: "$CO2DEX-USDC", address: "0x0BA7216BD34CAF32d1FBCb9341997328b38a03a3" },
-  { id: 2, name: "WCO2E-USDC", address: "0x1Ea95048A66455C3852dBE4620A3970831564189" },
-  { id: 5, name: "DOGSP-CO2DEX", address: "0x07Da7DA47b3C71a023d194ff623ab3a737c46393" },
-  { id: 6, name: "WCO2E-DOGSP", address: "0xCfFF901398cB001D740FFf564D2dcc9Dbd898a11" },
-  { id: 7, name: "WCO2E-1000x", address: "0x34D99393593245F3268ceAcf35a17407C49c4D59" },
-  { id: 8, name: "1000x-$CO2DEX", address: "0x9763E377ce4E6767F7760D9E1FC7E3c2afBc9Cfb" },
-  { id: 9, name: "DOGSP-1000x", address: "0x0cC0D3382fC2826E18606C968842A91e5C52e2b3" },
-  { id: 10, name: "WCO2E-XTR", address: "0x1d2a64b660E572ce653f35Ce5A9A655D05ae9fd0" },
-  { id: 11, name: "DAM-CO2DEX", address: "0xDaEEc4298a0ED4796E271188D2D7Bbcf53733Fb1" },
-  { id: 12, name: "CO2DEX-ZAR", address: "0xE4020B6d3073B79027e2350705f9230903130791" },
-  { id: 13, name: "CO2DEX-XTR", address: "0x32D8Da81B7b4a562b0852ed6823BE8b2CCFa6495" },
-  { id: 14, name: "CO2DEX-BANG", address: "0x84D0Ee4262cfD4ea222554D4FAE1A5Df7c38D9Be" },
-  { id: 15, name: "DGONE-CO2DEX", address: "0x5D8274da127f7D94b46D123090707BBBCd4Ed119" },
-  { id: 16, name: "BOBD-CO2DEX", address: "0x1607D3CaB18F24e3De082Fd2F297b0d3B0fc0112" },
-  { id: 17, name: "CO2DEX-CLICK", address: "0xf099c8D1cd95608F5D5e70da8581c4981d4f3a3f" },
-  { id: 18, name: "DCLUB-CO2DEX", address: "0x66b700c1039182C6fD653b429A14bf4BC2d98a4A" },
-  { id: 19, name: "CO2DEX-SHELLS", address: "0x662ca8cAceBfd41442c536D0153Ed181bfD34c60" },
-  { id: 20, name: "DWMW-CO2DEX", address: "0xee1780dc28D0948fe46FC10fcED1B44F5d1a5971" },
-  { id: 21, name: "RANGER-CO2DEX", address: "0xC5a3D921a8c3FA452c278D5278EA1aeb28C0Ecb2" },
-  { id: 22, name: "CO2DEX-WBUX", address: "0xD288C9aC27b608dB905B98AB0fDfd0Ea68059ecc" },
-  { id: 23, name: "CO2DEX-BATS", address: "0x714A30450a3DCe38b6CC731Cdaa265e627D88A67" }
+  { id: 0, name: "WCO2E-$USDT", address: "0x21417Fa6fa31FA9A10F58F9ee2cD8ae3e87C6a54" },
 ];
 
 export default function PoolsStatistics() {
@@ -152,7 +131,7 @@ export default function PoolsStatistics() {
         return numAmount * mintMePriceInUsd;
       case '$CO2DEX':
         return numAmount * bonePriceInUSD;
-      case 'USDC':
+      case 'USDT':
         return numAmount;
       default:
         // For other tokens, calculate based on their CO2DEX pair if available

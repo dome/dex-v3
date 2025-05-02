@@ -100,7 +100,8 @@ const FACTORY_ABI = [
   "function allPairs(uint) external view returns (address)"
 ];
 
-const FACTORY_ADDRESS = "0x86818c666b90f6f4706560afc72c2c2fa7b9c74a";
+const FACTORY_ADDRESS = "0x0739826B463388Bfa61aa2E4fde1882099EaEB8d";
+
 
 // Token data cache
 const tokenDataCache = new Map();
@@ -147,7 +148,7 @@ const AllPoolStats = () => {
         return numAmount * mintMePriceInUsd;
       case '$CO2DEX':
         return numAmount * bonePriceInUSD;
-      case 'USDC':
+      case 'USDT':
         return numAmount;
       default:
         return numAmount * bonePriceInUSD;
