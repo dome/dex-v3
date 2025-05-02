@@ -10,7 +10,7 @@ import {
   HowToVote as VoteIcon,
 } from '@mui/icons-material';
 import { getProvider, getSigner } from '../utils/ethereumFunctions';
-import { fetchBalance, fetchTokenBalances, fetchTransactions, fetchVotingPower, fetchRouterTransactions } from '../utils/dashFetch';
+import { fetchBalance, fetchTokenBalances, fetchTransactions, fetchRouterTransactions } from '../utils/dashFetch';
 import InfoCard from '../Components/Dash/InfoCard';
 import TokenBalances from '../Components/Dash/TokenBalances';
 import RecentTransactions from '../Components/Dash/RecentTransactions';
@@ -124,8 +124,8 @@ const ProfileDashboard = () => {
   const loadVotingPower = useCallback(async ({ provider, address }) => {
     if (!provider || !address) return;
     try {
-      const power = await fetchVotingPower(provider, address);
-      setVotingPower(power);
+      // const power = await fetchVotingPower(provider, address);
+      // setVotingPower(power);
     } catch (error) {
       console.error('Error fetching voting power:', error);
     } finally {
@@ -217,22 +217,7 @@ const ProfileDashboard = () => {
           <RecentTransactions transactions={transactions} isLoading={loading.transactions} handleCopy={handleCopy} />
         </Grid>
   
-        <Grid item xs={12} md={6}>
-          <InfoCard
-            title="CO2e Token Voting Power"
-            icon={<VoteIcon />}
-            isLoading={loading.votingPower}
-            content={
-              <>
-                <Typography variant="h6">{votingPower.amount} CO2E</Typography>
-                <Typography variant="body2">
-                  {votingPower.percentage}% of total supply
-                </Typography>
-              </>
-            }
-          />
-        </Grid>
-  
+ 
         <Grid item xs={12}>
           <RecentTrades routerTransactions={routerTransactions} isLoading={loading.routerTransactions} handleCopy={handleCopy} />
         </Grid>

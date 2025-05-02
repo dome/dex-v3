@@ -18,7 +18,7 @@ const MINTMECoins = [
   {
     name: "TVER REF",
     abbr: "TVREF",
-    address: "0x0d8A4c62557db4eba03d5b1CA1528738a79a0369",
+    address: "0xd49B7CB086a17E46AA420cf52eCC8C1061fa4dD4",
     logoUrl: "https://pub-89889c1f7aea4fc08378f41c30a7fa44.r2.dev/tvref.png",
   },
   {
