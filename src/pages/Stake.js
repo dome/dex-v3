@@ -132,7 +132,7 @@ const StyledSlider = styled(Slider)(({ theme }) => ({
 }));
 
 // Constants
-const MASTER_CHEF_ADDRESS = '0x9DA6517Ca9162a9daC0De7483ab7d969B9B5b154';
+const MASTER_CHEF_ADDRESS = '0xf919C5FF7721726882FA53Fe296D083fF5a49b91';
 
 const getMasterChefInstance = (networkId, signer) => {
   return new Contract(MASTER_CHEF_ADDRESS, masterChefABI, signer);
@@ -161,7 +161,7 @@ export default function Stake() {
   const [dexPriceInCO2e] = bonePriceInMintMeState;
   const [bonePriceInUSD] = bonePriceInUSDState;
 
-  const BONE_TOKEN_ADDRESS = "0x590960859Da3Aa90ed948C5F4D15463Bc8f5a321";
+  const BONE_TOKEN_ADDRESS = "0x3610587e99D40deDf91403465A834275f3B9cA98";
   const BONE_TOKEN_DECIMALS = 18;
 
   const getBoneTokenInstance = (networkId, signer) => {
@@ -169,7 +169,7 @@ export default function Stake() {
   };
 
   const POOLS = [
-    { id: 1, name: "$CO2DEX-WCO2E", address: "0xf77597F4165DC70C74f93F04EB98c62eE222fadA" },
+    { id: 1, name: "$CO2DEX-WCO2E", address: "0x3610587e99D40deDf91403465A834275f3B9cA98" },
   ];
 
   const fetchTVLData = async () => {

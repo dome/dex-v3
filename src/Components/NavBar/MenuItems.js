@@ -19,7 +19,7 @@ export const MenuItems = [
     url: '/pools',
     subMenu: [
       { title: 'Featured', url: '/featured' },
-      { title: 'CO2eDEX Pools', url: '/bonepools' },
+      { title: 'CO2eDEX', url: '/bonepools' },
     ],
   },
   {

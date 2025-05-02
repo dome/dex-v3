@@ -24,7 +24,7 @@ const MINTMECoins = [
   {
     name: "CO2e DEX",
     abbr: "CO2DEX",
-    address: "0x590960859Da3Aa90ed948C5F4D15463Bc8f5a321",
+    address: "0x3610587e99D40deDf91403465A834275f3B9cA98",
     logoUrl: "https://pub-89889c1f7aea4fc08378f41c30a7fa44.r2.dev/co2dex.png",
   }
 ]
