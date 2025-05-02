@@ -32,7 +32,7 @@ export const fetchTokenBalances = async (provider, walletAddress) => {
         const balance = await tokenContract.balanceOf(walletAddress);
         return {
           ...token,
-          balance: ethers.utils.formatUnits(balance, token.decimals)
+          balance: parseFloat(ethers.utils.formatUnits(balance, token.decimals)).toFixed(4)
         };
       })
     );
