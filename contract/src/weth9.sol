@@ -3,8 +3,8 @@
 pragma solidity =0.8.4;
 
 contract WETH9 {
-    string public name = "Wrapped CO2e";
-    string public symbol = "WCO2E";
+    string public name = "Wrapped BCT";
+    string public symbol = "WBCT";
     uint8 public decimals = 18;
 
     event Approval(address indexed src, address indexed guy, uint256 wad);

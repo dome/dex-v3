@@ -14,7 +14,7 @@ export const getMintMePriceInUSD = async () => {
   const Reserve0 = Reserves[0] ;
   const Reserve1 = Reserves[1] ;
   const WCO2EinUSD = Reserve0 / Reserve1;
-  return parseFloat(WCO2EinUSD).toFixed(8);
+  return parseFloat(WCO2EinUSD).toFixed(4);
 };
 export const getBonePriceInMintMe = async () => {
   const provider = new ethers.providers.JsonRpcProvider("https://rpc.co2e.cc");

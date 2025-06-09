@@ -64,7 +64,7 @@ const App = () => {
     }
 
     getPrices();
-    const interval = setInterval(getPrices, 60000);
+    const interval = setInterval(getPrices, 100000);
     return () => clearInterval(interval);
   }, []);
   
